@@ -1,0 +1,161 @@
+"OBJECTID","ID_0","ISO","NAME_0","ID_1","NAME_1","ID_2","NAME_2","TYPE_2","ENGTYPE_2","NL_NAME_2","VARNAME_2"
+1,136,"MYS","Malaysia",1,"Johor",1,"Batu Pahat","District","District",NA,NA
+2,136,"MYS","Malaysia",1,"Johor",2,"Johor Baharu","District","District",NA,"Johor Bahru"
+3,136,"MYS","Malaysia",1,"Johor",3,"Keluang","District","District",NA,NA
+4,136,"MYS","Malaysia",1,"Johor",4,"Kota Tinggi","District","District",NA,NA
+5,136,"MYS","Malaysia",1,"Johor",5,"Mersing","District","District",NA,NA
+6,136,"MYS","Malaysia",1,"Johor",6,"Muar","District","District",NA,NA
+7,136,"MYS","Malaysia",1,"Johor",7,"Pontian","District","District",NA,NA
+8,136,"MYS","Malaysia",1,"Johor",8,"Segamat","District","District",NA,NA
+9,136,"MYS","Malaysia",2,"Kedah",9,"Baling","District","District",NA,NA
+10,136,"MYS","Malaysia",2,"Kedah",10,"Bandar Baharu","District","District",NA,NA
+11,136,"MYS","Malaysia",2,"Kedah",11,"Kota Setar","District","District",NA,NA
+12,136,"MYS","Malaysia",2,"Kedah",12,"Kuala Muda","District","District",NA,NA
+13,136,"MYS","Malaysia",2,"Kedah",13,"Kubang Pasu","District","District",NA,NA
+14,136,"MYS","Malaysia",2,"Kedah",14,"Kulim","District","District",NA,NA
+15,136,"MYS","Malaysia",2,"Kedah",15,"Langkawi","District","District",NA,NA
+16,136,"MYS","Malaysia",2,"Kedah",16,"Padang Terap","District","District",NA,NA
+17,136,"MYS","Malaysia",2,"Kedah",17,"Pendang","District","District",NA,NA
+18,136,"MYS","Malaysia",2,"Kedah",18,"Sik","District","District",NA,NA
+19,136,"MYS","Malaysia",2,"Kedah",19,"Yan","District","District",NA,NA
+20,136,"MYS","Malaysia",3,"Kelantan",20,"Bachok","District","District",NA,"Bachor"
+21,136,"MYS","Malaysia",3,"Kelantan",21,"Gua Musang","District","District",NA,NA
+22,136,"MYS","Malaysia",3,"Kelantan",22,"Kota Bharu","District","District",NA,NA
+23,136,"MYS","Malaysia",3,"Kelantan",23,"Kuala Krai","District","District",NA,NA
+24,136,"MYS","Malaysia",3,"Kelantan",24,"Machang","District","District",NA,NA
+25,136,"MYS","Malaysia",3,"Kelantan",25,"Pasir Mas","District","District",NA,NA
+26,136,"MYS","Malaysia",3,"Kelantan",26,"Pasir Putih","District","District",NA,NA
+27,136,"MYS","Malaysia",3,"Kelantan",27,"Tanah Merah","District","District",NA,NA
+28,136,"MYS","Malaysia",3,"Kelantan",28,"Tumpat","District","District",NA,NA
+29,136,"MYS","Malaysia",4,"Melaka",29,"Alor Gajah","District","District",NA,NA
+30,136,"MYS","Malaysia",4,"Melaka",30,"Jasin","District","District",NA,NA
+31,136,"MYS","Malaysia",4,"Melaka",31,"Melaka Tengah","District","District",NA,NA
+32,136,"MYS","Malaysia",5,"Negeri Sembilan",32,"Jelebu","District","District",NA,NA
+33,136,"MYS","Malaysia",5,"Negeri Sembilan",33,"Jempol","District","District",NA,NA
+34,136,"MYS","Malaysia",5,"Negeri Sembilan",34,"Kuala Pilah","District","District",NA,NA
+35,136,"MYS","Malaysia",5,"Negeri Sembilan",35,"Port Dickson","District","District",NA,"Pontai"
+36,136,"MYS","Malaysia",5,"Negeri Sembilan",36,"Rembau","District","District",NA,NA
+37,136,"MYS","Malaysia",5,"Negeri Sembilan",37,"Seremban","District","District",NA,NA
+38,136,"MYS","Malaysia",5,"Negeri Sembilan",38,"Tampin","District","District",NA,NA
+39,136,"MYS","Malaysia",6,"Pahang",39,"Bentong","District","District",NA,"Bentung"
+40,136,"MYS","Malaysia",6,"Pahang",40,"Bera","District","District",NA,NA
+41,136,"MYS","Malaysia",6,"Pahang",41,"Cameron Highlands","District","District",NA,NA
+42,136,"MYS","Malaysia",6,"Pahang",42,"Jerantut","District","District",NA,NA
+43,136,"MYS","Malaysia",6,"Pahang",43,"Kuantan","District","District",NA,NA
+44,136,"MYS","Malaysia",6,"Pahang",44,"Lipis","District","District",NA,NA
+45,136,"MYS","Malaysia",6,"Pahang",45,"Maran","District","District",NA,NA
+46,136,"MYS","Malaysia",6,"Pahang",46,"Pekan","District","District",NA,NA
+47,136,"MYS","Malaysia",6,"Pahang",47,"Raub","District","District",NA,NA
+48,136,"MYS","Malaysia",6,"Pahang",48,"Rompin","District","District",NA,NA
+49,136,"MYS","Malaysia",6,"Pahang",49,"Temerloh","District","District",NA,"Temer Luh"
+50,136,"MYS","Malaysia",7,"Perak",50,"Batang Padang","District","District",NA,NA
+51,136,"MYS","Malaysia",7,"Perak",51,"Hilir Perak","District","District",NA,NA
+52,136,"MYS","Malaysia",7,"Perak",52,"Hulu Perak","District","District",NA,NA
+53,136,"MYS","Malaysia",7,"Perak",53,"Kerian","District","District",NA,NA
+54,136,"MYS","Malaysia",7,"Perak",54,"Kinta","District","District",NA,NA
+55,136,"MYS","Malaysia",7,"Perak",55,"Kuala Kangsar","District","District",NA,NA
+56,136,"MYS","Malaysia",7,"Perak",56,"Larut and Matang","District","District",NA,"Larut Dan Matang"
+57,136,"MYS","Malaysia",7,"Perak",57,"Manjung","District","District",NA,"Dinding"
+58,136,"MYS","Malaysia",7,"Perak",58,"Perak Tengah","District","District",NA,NA
+59,136,"MYS","Malaysia",7,"Perak",59,"Selama","District","District",NA,NA
+60,136,"MYS","Malaysia",8,"Perlis",60,"Perlis","District","District",NA,NA
+61,136,"MYS","Malaysia",9,"Pulau Pinang",61,"Barat Daya","District","District",NA,NA
+62,136,"MYS","Malaysia",9,"Pulau Pinang",62,"Seberang Perai Selatan","District","District",NA,"Daerah Selatan"
+63,136,"MYS","Malaysia",9,"Pulau Pinang",63,"Seberang Perai Tengah","District","District",NA,"Daerah Tengah"
+64,136,"MYS","Malaysia",9,"Pulau Pinang",64,"Seberang Perai Utara","District","District",NA,"Daerah Utara"
+65,136,"MYS","Malaysia",9,"Pulau Pinang",65,"Timur Laut","District","District",NA,NA
+66,136,"MYS","Malaysia",10,"Sabah",66,"Beaufort","District","District",NA,NA
+67,136,"MYS","Malaysia",10,"Sabah",67,"Keningau","District","District",NA,NA
+68,136,"MYS","Malaysia",10,"Sabah",68,"Kinabatangan","District","District",NA,NA
+69,136,"MYS","Malaysia",10,"Sabah",69,"Kota Belud","District","District",NA,NA
+70,136,"MYS","Malaysia",10,"Sabah",70,"Kota Kinabalu","District","District",NA,NA
+71,136,"MYS","Malaysia",10,"Sabah",71,"Kota Marudu","District","District",NA,NA
+72,136,"MYS","Malaysia",10,"Sabah",72,"Kuala Penyu","District","District",NA,NA
+73,136,"MYS","Malaysia",10,"Sabah",73,"Kudat","District","District",NA,NA
+74,136,"MYS","Malaysia",10,"Sabah",74,"Labuk & Sugut","District","District",NA,NA
+75,136,"MYS","Malaysia",10,"Sabah",75,"Lahad Datu","District","District",NA,NA
+76,136,"MYS","Malaysia",10,"Sabah",76,"Papar","District","District",NA,NA
+77,136,"MYS","Malaysia",10,"Sabah",77,"Penampang","District","District",NA,NA
+78,136,"MYS","Malaysia",10,"Sabah",78,"Pensiangan","District","District",NA,NA
+79,136,"MYS","Malaysia",10,"Sabah",79,"Pitas","District","District",NA,NA
+80,136,"MYS","Malaysia",10,"Sabah",80,"Ranau","District","District",NA,NA
+81,136,"MYS","Malaysia",10,"Sabah",81,"Sandakan","District","District",NA,NA
+82,136,"MYS","Malaysia",10,"Sabah",82,"Semporna","District","District",NA,NA
+83,136,"MYS","Malaysia",10,"Sabah",83,"Sipitang","District","District",NA,NA
+84,136,"MYS","Malaysia",10,"Sabah",84,"Tambunan","District","District",NA,NA
+85,136,"MYS","Malaysia",10,"Sabah",85,"Tawau","District","District",NA,NA
+86,136,"MYS","Malaysia",10,"Sabah",86,"Tenom","District","District",NA,NA
+87,136,"MYS","Malaysia",10,"Sabah",87,"Tuaban","District","District",NA,NA
+88,136,"MYS","Malaysia",11,"Sarawak",88,"Asajaya","District","District",NA,NA
+89,136,"MYS","Malaysia",11,"Sarawak",89,"Bahagian Miri (Long Lama)","District","District",NA,"Long Lama"
+90,136,"MYS","Malaysia",11,"Sarawak",90,"Balingian","District","District",NA,NA
+91,136,"MYS","Malaysia",11,"Sarawak",91,"Bau","District","District",NA,NA
+92,136,"MYS","Malaysia",11,"Sarawak",92,"Belaga","District","District",NA,NA
+93,136,"MYS","Malaysia",11,"Sarawak",93,"Belawai","District","District",NA,NA
+94,136,"MYS","Malaysia",11,"Sarawak",94,"Beluru","District","District",NA,NA
+95,136,"MYS","Malaysia",11,"Sarawak",95,"Betong","District","District",NA,NA
+96,136,"MYS","Malaysia",11,"Sarawak",96,"Bintulu","District","District",NA,"Bahagian Bentulu"
+97,136,"MYS","Malaysia",11,"Sarawak",97,"Budu","District","District",NA,NA
+98,136,"MYS","Malaysia",11,"Sarawak",98,"Dalat","District","District",NA,NA
+99,136,"MYS","Malaysia",11,"Sarawak",99,"Daro","District","District",NA,NA
+100,136,"MYS","Malaysia",11,"Sarawak",100,"Debak","District","District",NA,NA
+101,136,"MYS","Malaysia",11,"Sarawak",101,"Engkilili","District","District",NA,NA
+102,136,"MYS","Malaysia",11,"Sarawak",102,"Julau","District","District",NA,NA
+103,136,"MYS","Malaysia",11,"Sarawak",103,"Kabong","District","District",NA,NA
+104,136,"MYS","Malaysia",11,"Sarawak",104,"Kanowit","District","District",NA,NA
+105,136,"MYS","Malaysia",11,"Sarawak",105,"Kapit","District","District",NA,NA
+106,136,"MYS","Malaysia",11,"Sarawak",106,"Kuching","District","District",NA,NA
+107,136,"MYS","Malaysia",11,"Sarawak",107,"Lawas","District","District",NA,NA
+108,136,"MYS","Malaysia",11,"Sarawak",108,"Limbang","District","District",NA,NA
+109,136,"MYS","Malaysia",11,"Sarawak",109,"Lingga","District","District",NA,NA
+110,136,"MYS","Malaysia",11,"Sarawak",110,"Lubok Antu","District","District",NA,NA
+111,136,"MYS","Malaysia",11,"Sarawak",111,"Lundu","District","District",NA,NA
+112,136,"MYS","Malaysia",11,"Sarawak",112,"Maludam","District","District",NA,NA
+113,136,"MYS","Malaysia",11,"Sarawak",113,"Marudi","District","District",NA,NA
+114,136,"MYS","Malaysia",11,"Sarawak",114,"Matu","District","District",NA,NA
+115,136,"MYS","Malaysia",11,"Sarawak",115,"Meradong","District","District",NA,"Maradong"
+116,136,"MYS","Malaysia",11,"Sarawak",116,"Miri","District","District",NA,NA
+117,136,"MYS","Malaysia",11,"Sarawak",117,"Mukah","District","District",NA,NA
+118,136,"MYS","Malaysia",11,"Sarawak",118,"Nanga Medamit","District","District",NA,NA
+119,136,"MYS","Malaysia",11,"Sarawak",119,"Nanga Merit","District","District",NA,NA
+120,136,"MYS","Malaysia",11,"Sarawak",120,"Niah Suai","District","District",NA,NA
+121,136,"MYS","Malaysia",11,"Sarawak",121,"Oya","District","District",NA,NA
+122,136,"MYS","Malaysia",11,"Sarawak",122,"Padawan","District","District",NA,NA
+123,136,"MYS","Malaysia",11,"Sarawak",123,"Pakan","District","District",NA,NA
+124,136,"MYS","Malaysia",11,"Sarawak",124,"Pantu","District","District",NA,NA
+125,136,"MYS","Malaysia",11,"Sarawak",125,"Pendam","District","District",NA,NA
+126,136,"MYS","Malaysia",11,"Sarawak",126,"Pusa","District","District",NA,NA
+127,136,"MYS","Malaysia",11,"Sarawak",127,"Roban","District","District",NA,NA
+128,136,"MYS","Malaysia",11,"Sarawak",128,"Samarahan","District","District",NA,NA
+129,136,"MYS","Malaysia",11,"Sarawak",129,"Saratok","District","District",NA,NA
+130,136,"MYS","Malaysia",11,"Sarawak",130,"Sarikei","District","District",NA,"Sarekei"
+131,136,"MYS","Malaysia",11,"Sarawak",131,"Sebuyao","District","District",NA,NA
+132,136,"MYS","Malaysia",11,"Sarawak",132,"Sematan","District","District",NA,NA
+133,136,"MYS","Malaysia",11,"Sarawak",133,"Serian","District","District",NA,NA
+134,136,"MYS","Malaysia",11,"Sarawak",134,"Sibu","District","District",NA,NA
+135,136,"MYS","Malaysia",11,"Sarawak",135,"Siburan","District","District",NA,NA
+136,136,"MYS","Malaysia",11,"Sarawak",136,"Sibuti","District","District",NA,NA
+137,136,"MYS","Malaysia",11,"Sarawak",137,"Simunjan","District","District",NA,NA
+138,136,"MYS","Malaysia",11,"Sarawak",138,"Song","District","District",NA,NA
+139,136,"MYS","Malaysia",11,"Sarawak",139,"Spaoh","District","District",NA,NA
+140,136,"MYS","Malaysia",11,"Sarawak",140,"Sri Aman","District","District",NA,NA
+141,136,"MYS","Malaysia",11,"Sarawak",141,"Sundar","District","District",NA,NA
+142,136,"MYS","Malaysia",11,"Sarawak",142,"Tatau","District","District",NA,NA
+143,136,"MYS","Malaysia",11,"Sarawak",143,"Tebedu","District","District",NA,NA
+144,136,"MYS","Malaysia",11,"Sarawak",144,"Trusan","District","District",NA,NA
+145,136,"MYS","Malaysia",12,"Selangor",145,"Gombak","District","District",NA,NA
+146,136,"MYS","Malaysia",12,"Selangor",146,"Hulu Langat","District","District",NA,"Hula Langat"
+147,136,"MYS","Malaysia",12,"Selangor",147,"Hulu Selangor","District","District",NA,NA
+148,136,"MYS","Malaysia",12,"Selangor",148,"Klang","District","District",NA,NA
+149,136,"MYS","Malaysia",12,"Selangor",149,"Kuala Langat","District","District",NA,NA
+150,136,"MYS","Malaysia",12,"Selangor",150,"Kuala Selangor","District","District",NA,NA
+151,136,"MYS","Malaysia",12,"Selangor",151,"Sabak Bernam","District","District",NA,NA
+152,136,"MYS","Malaysia",12,"Selangor",152,"Sepang","District","District",NA,NA
+153,136,"MYS","Malaysia",12,"Selangor",153,"Shah Alam","District","District",NA,NA
+154,136,"MYS","Malaysia",13,"Trengganu",154,"Besut","District","District",NA,NA
+155,136,"MYS","Malaysia",13,"Trengganu",155,"Dungun","District","District",NA,NA
+156,136,"MYS","Malaysia",13,"Trengganu",156,"Hulu Terengganu","District","District",NA,NA
+157,136,"MYS","Malaysia",13,"Trengganu",157,"Kemaman","District","District",NA,NA
+158,136,"MYS","Malaysia",13,"Trengganu",158,"Kuala Terengganu","District","District",NA,NA
+159,136,"MYS","Malaysia",13,"Trengganu",159,"Marang","District","District",NA,NA
+160,136,"MYS","Malaysia",13,"Trengganu",160,"Setiu","District","District",NA,NA
