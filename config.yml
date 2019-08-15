@@ -1,0 +1,25 @@
+API: 
+  KEY: "AIzaSyCi32iADoxAp_5UckfIfDLHkjUL4wg3PCo"
+  URL: "https://maps.googleapis.com/maps/api/place/textsearch/json?"
+
+output:
+  filename: /Users/shenghao/Desktop/shenghao-repos/asiatique/data/suppliers_penang.csv 
+
+logging:
+  version: 1
+  root:
+    level: INFO
+    handlers: [console, logfile]
+  formatters:
+    simple:
+      format: '%(asctime)s %(levelname)s--: %(message)s'
+  handlers:
+    console:
+      class: logging.StreamHandler
+      formatter: simple
+    logfile:
+      class: logging.FileHandler
+      level: INFO
+      filename: /Users/shenghao/Desktop/shenghao-repos/asiatique/places_finder.log
+      formatter: simple
+      mode: "w"
