@@ -1,6 +1,7 @@
 import pandas as pd
 import numpy as np
 import shapefile as shp
+from area import area
 
 
 def read_shapefile(sf):
@@ -10,17 +11,9 @@ def read_shapefile(sf):
     package
     """
     fields = [x[0] for x in sf.fields][1:]
-    print(fields)
-    print("type of fields: ", type(fields))
-    print("length of fields: ", len(fields))
-    # records = sf.records()
+    print("fields: ", fields)
     records = [list(i) for i in sf.records()]
-    #print(records)
-    #print(records[0][5])
-    print("type of records: ", type(records[0]))
-    #print(records[0].shape)
     shps = [s.points for s in sf.shapes()]
-    #print(shps)
 
     df = pd.DataFrame(columns=fields, data=records)
     df = df.assign(coords=shps)
@@ -29,12 +22,13 @@ def read_shapefile(sf):
 
 
 def get_center(coords):
-    num_points = len(coords)
+    num_points = len(coords) - 1
     sum_lng = 0
     sum_lat = 0
-    for coord in coords:
-        sum_lng += coord[0]
-        sum_lat += coord[0]
+    for i in range(num_points):
+        point = coords[i]
+        sum_lng += point[0]
+        sum_lat += point[1]
     return (sum_lng / num_points, sum_lat / num_points)
 
 
@@ -50,34 +44,51 @@ def get_cartesian(geocode):
     return (x, y)
 
 
+#def calc_floor_area(coords):
+#    """Estimate area of a polygon according to the Cartesian coordinates of
+#    its boundary points.
+#
+#    Ref: http://mathworld.wolfram.com/PolygonArea.html
+#    """
+#    # https://stackoverflow.com/questions/4681737/how-to-calculate-the-area-of-a-polygon-on-the-earths-surface-using-python
+#
+#    num_points = len(coords) - 1
+#    coords = list(map(get_cartesian, coords))
+#    A = 0
+#    for i in range(num_points):
+#        if i < num_points - 1:
+#            point1 = coords[i]
+#            point2 = coords[i+1]
+#        else:
+#            point1 = coords[num_points - 1]
+#            point2 = coords[0]
+#
+#        # Take note the points of polygon are arranged by clockwise order
+#        A += point1[0] * point2[1] - point2[0] * point1[1]
+#
+#    return -(A / 2)
 def calc_floor_area(coords):
-    """Estimate area of a polygon according to the Cartesian coordinates of
-    its boundary points.
+    obj = {}
+    obj['type'] = 'Polygon'
+    obj['coordinates'] = [coords]
+    
+    return area(obj)
+    
 
-    Ref: http://mathworld.wolfram.com/PolygonArea.html
+def is_penang(geocode):
+    """Check whether a building is within Penang based on its geocode
     """
-    # https://stackoverflow.com/questions/4681737/how-to-calculate-the-area-of-a-polygon-on-the-earths-surface-using-python
-
-    num_points = len(coords)
-    coords = list(map(get_cartesian, coords))
-    A = 0
-    for i in range(num_points):
-        if i < num_points - 1:
-            point1 = coords[i]
-            point2 = coords[i+1]
-        else:
-            point1 = coords[num_points - 1]
-            point2 = coords[0]
-
-        # Take note the points of polygon are arranged ub clockwise order
-        A += point1[0] * point2[1] - point2[0] * point1[1]
-
-    return -(A / 2)
+    lat, lng = geocode[1], geocode[0]
+    if lat > 5.1175 and lat < 5.5929 and lng > 100.1691 and lng < 100.5569:
+        return True
+    else:
+        return False
 
 
 def main():
     #shp_path = '/home/swang/Desktop/shenghao-repos/asiatique/MYS_adm/MYS_adm0.shp'
-    shp_path = '/home/swang/Desktop/shenghao-repos/asiatique/malaysia-singapore-brunei-latest-free.shp/gis_osm_buildings_a_free_1.shp'
+    #shp_path = '/home/swang/Desktop/shenghao-repos/asiatique/malaysia-singapore-brunei-latest-free.shp/gis_osm_buildings_a_free_1.shp'
+    shp_path = '/Users/shenghao/Desktop/shenghao-repos/asiatique/malaysia-singapore-brunei-latest-free.shp/gis_osm_buildings_a_free_1.shp'
     sf = shp.Reader(shp_path)
     #print(sf)
     print("type of sf: ", type(sf))
@@ -87,10 +98,14 @@ def main():
     residential_df = shp_df.loc[shp_df["type"] == "residential"]
     residential_df = residential_df.set_index("osm_id")
     residential_df["center"] = residential_df["coords"].apply(lambda coords: get_center(coords))
-    residential_df["area"] = residential_df["coords"].apply(lambda coords: calc_floor_area(coords))
-    residential_df = residential_df.drop(["coords"], axis=1)
-    print(residential_df.head())
-    residential_df.to_csv("data/residential_buildings.csv")
+    # Boundary of Penang State, obtained from OpenStreetMap
+    # lat: 5.1175 - 5.5929; lng: 100.1691 - 100.5569
+    residential_df["is_penang"] = residential_df["center"].apply(lambda geocode: is_penang(geocode))
+    penang_df = residential_df.loc[residential_df["is_penang"] == True]
+    penang_df["area"] = penang_df["coords"].apply(lambda coords: calc_floor_area(coords))
+    penang_df = penang_df.drop(["is_penang"], axis=1)
+    print(penang_df.head())
+    penang_df.to_csv("data/penang_residential_buildings.csv")
 
 
 if __name__ == "__main__":
