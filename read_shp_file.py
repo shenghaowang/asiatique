@@ -67,13 +67,14 @@ def get_cartesian(geocode):
 #        A += point1[0] * point2[1] - point2[0] * point1[1]
 #
 #    return -(A / 2)
+
 def calc_floor_area(coords):
     obj = {}
     obj['type'] = 'Polygon'
     obj['coordinates'] = [coords]
-    
+
     return area(obj)
-    
+
 
 def is_penang(geocode):
     """Check whether a building is within Penang based on its geocode
@@ -87,15 +88,16 @@ def is_penang(geocode):
 
 def main():
     #shp_path = '/home/swang/Desktop/shenghao-repos/asiatique/MYS_adm/MYS_adm0.shp'
-    #shp_path = '/home/swang/Desktop/shenghao-repos/asiatique/malaysia-singapore-brunei-latest-free.shp/gis_osm_buildings_a_free_1.shp'
-    shp_path = '/Users/shenghao/Desktop/shenghao-repos/asiatique/malaysia-singapore-brunei-latest-free.shp/gis_osm_buildings_a_free_1.shp'
+    shp_path = '/home/swang/Desktop/shenghao-repos/asiatique/malaysia-singapore-brunei-latest-free.shp/gis_osm_buildings_a_free_1.shp'
+    #shp_path = '/Users/shenghao/Desktop/shenghao-repos/asiatique/malaysia-singapore-brunei-latest-free.shp/gis_osm_buildings_a_free_1.shp'
     sf = shp.Reader(shp_path)
-    #print(sf)
     print("type of sf: ", type(sf))
     #print("shape of sf: ", sf.shapes())
     shp_df = read_shapefile(sf)
-    #print(shp_df.head())
-    residential_df = shp_df.loc[shp_df["type"] == "residential"]
+    residential_types = ["condominium", "apartment", "apartments",
+                         "dormitory", "EiS_Residences", "residential",
+                         "bungalow", "detached", "mix_used"]
+    residential_df = shp_df.loc[shp_df["type"].isin(residential_types)]
     residential_df = residential_df.set_index("osm_id")
     residential_df["center"] = residential_df["coords"].apply(lambda coords: get_center(coords))
     # Boundary of Penang State, obtained from OpenStreetMap
@@ -103,9 +105,16 @@ def main():
     residential_df["is_penang"] = residential_df["center"].apply(lambda geocode: is_penang(geocode))
     penang_df = residential_df.loc[residential_df["is_penang"] == True]
     penang_df["area"] = penang_df["coords"].apply(lambda coords: calc_floor_area(coords))
-    penang_df = penang_df.drop(["is_penang"], axis=1)
+    penang_df["center_lng"] = penang_df["center"].apply(lambda geocode: geocode[0])
+    penang_df["center_lat"] = penang_df["center"].apply(lambda geocode: geocode[1])
+    penang_df["area"] = penang_df["coords"].apply(lambda coords: calc_floor_area(coords))
+    penang_df["id"] = np.arange(len(penang_df))
+    penang_df = penang_df.reset_index()
+    penang_df = penang_df.drop(["osm_id", "code", "fclass",
+                                "is_penang", "center", "coords"], axis=1)
+    penang_df = penang_df.set_index('id')
     print(penang_df.head())
-    penang_df.to_csv("data/penang_residential_buildings.csv")
+    penang_df.to_csv("data/penang_residential_buildings.csv", index=True)
 
 
 if __name__ == "__main__":
