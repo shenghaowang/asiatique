@@ -1,9 +1,9 @@
-API: 
-  KEY: "AIzaSyCi32iADoxAp_5UckfIfDLHkjUL4wg3PCo"
+API:
+  KEY: "API_KEY"
   URL: "https://maps.googleapis.com/maps/api/place/textsearch/json?"
 
 output:
-  filename: /Users/shenghao/Desktop/shenghao-repos/asiatique/data/suppliers_penang.csv 
+  filename: data/suppliers_penang.csv
 
 logging:
   version: 1
@@ -20,6 +20,6 @@ logging:
     logfile:
       class: logging.FileHandler
       level: INFO
-      filename: /Users/shenghao/Desktop/shenghao-repos/asiatique/places_finder.log
+      filename: log/places_finder.log
       formatter: simple
       mode: "w"
