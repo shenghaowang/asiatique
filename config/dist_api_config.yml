@@ -1,0 +1,8 @@
+API:
+  KEY: "API_KEY"
+  #KEY: "##AIzaSyCi32iADoxAp_5UckfIfDLHkjUL4wg3PCo##"
+  URL: "https://maps.googleapis.com/maps/api/distancematrix/json?"
+
+input:
+  supermarkets_file: data/suppliers_penang.csv
+  city_grids_file: data/

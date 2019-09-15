@@ -26,19 +26,19 @@ Processing OSM building shapefile
 
 ```bash
 source env/bin/activate
-python3 read_shp_file.py
+python3 osm_preprocessor.py
 ```
 
 
 Searching for potential supermarket competitors
 ----
 
-- see `config.sample.yml`
+- see `places_api_config.sample.yml`
 - require key of Google Places API
 
 ```bash
 source env/bin/activate
-python3 places_finder.py -c config.sample.yml
+python3 supermarkets_finder.py -c config/places_api_config.sample.yml
 ```
 
 Deriving grid population
