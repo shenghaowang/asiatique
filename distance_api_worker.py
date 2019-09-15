@@ -19,7 +19,8 @@ class DistAPIWorker:
         self.city_grid = city_grid
         self.supermarket = supermarket
 
-
+    def _form_url(self):
+        
 
 
 def main(config_file):
