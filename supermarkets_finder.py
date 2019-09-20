@@ -17,7 +17,8 @@ def main(config_file):
                             format="%(asctime)s - %(levelname)s - %(message)s")
     API_KEY = conf.get("API").get("KEY")
     base_url = conf.get("API").get("URL")
-    place_types = ["supermarkets", "convenience_store", "department_store", "store", "grocery"]
+    # place_types = ["supermarkets", "convenience_store", "department_store", "store", "grocery"]
+    place_types = ["supermarkets", "grocery"]
     locations = []
     for place in place_types:
         logging.info("Searching for %s in Penang", place)
@@ -38,8 +39,13 @@ def main(config_file):
             locations.append(location)
 
     places_df = pd.DataFrame(locations)
+    places_df = places_df.drop_duplicates(subset=["lat", "lng"])
+    places_df = places_df.reset_index()
     output_fp = conf.get("output").get("filename")
     places_df.to_csv(output_fp, index=False)
+    logging.info("%s supermarkets are located in the city", places_df.shape[0])
+    logging.info("Information of existing supermarkets written to %s",
+                 output_fp)
 
 
 if __name__ == "__main__":

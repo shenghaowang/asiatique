@@ -1,5 +1,5 @@
 API:
-  KEY: "API_KEY"
+  KEY: "AIzaSyCi32iADoxAp_5UckfIfDLHkjUL4wg3PCo"
   URL: "https://maps.googleapis.com/maps/api/place/textsearch/json?"
 
 output:

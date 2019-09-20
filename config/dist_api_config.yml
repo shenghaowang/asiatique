@@ -1,8 +1,31 @@
 API:
-  KEY: "API_KEY"
+  #KEY: "API_KEY"
   #KEY: "##AIzaSyCi32iADoxAp_5UckfIfDLHkjUL4wg3PCo##"
+  KEY: "AIzaSyCi32iADoxAp_5UckfIfDLHkjUL4wg3PCo"
   URL: "https://maps.googleapis.com/maps/api/distancematrix/json?"
 
 input:
   supermarkets_file: data/suppliers_penang.csv
-  city_grids_file: data/
+  grid_geocode_file: data/grid_center_geocode.csv
+
+output:
+  grid_to_supermarket_dist_file: data/grid_to_supermarket_dist.json
+
+logging:
+  version: 1
+  root:
+    level: INFO
+    handlers: [console, logfile]
+  formatters:
+    simple:
+      format: '%(asctime)s %(levelname)s--: %(message)s'
+  handlers:
+    console:
+      class: logging.StreamHandler
+      formatter: simple
+    logfile:
+      class: logging.FileHandler
+      level: INFO
+      filename: log/dist_matrix_api.log
+      formatter: simple
+      mode: "w"

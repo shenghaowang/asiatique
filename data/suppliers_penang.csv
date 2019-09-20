@@ -1,41 +1,29 @@
-addr,lat,lng,name,type
-"Penang Plaza, 126, Jalan Burmah, 10050 George Town, Pulau Pinang, Malaysia",5.4214934,100.3251475,Giant Supermarket Penang Plaza,supermarkets
-"Axis Complex, Pulau Tikus, 10350 George Town, Pulau Pinang, Malaysia",5.431337,100.3112902,Bandar Baru (Pulau Tikus) Supermarket,supermarkets
-"B1-15, Gurney Plaza, 170, Pesiaran Gurney, 10250 George Town, Pulau Pinang, Malaysia",5.4370105,100.3087988,Cold Storage,supermarkets
-"2 A, Jalan Angsana, Bandar Baru Ayer Itam, 11500 Ayer Itam, Pulau Pinang, Malaysia",5.38769,100.283356,New City Supermarket,supermarkets
-"1, Jalan Dato Keramat, 10000 George Town, Pulau Pinang, Malaysia",5.413531,100.3281616,Gama Supermaket & Departmental Store,supermarkets
-"163 D - 6 - 35, Lorong Kelawai, 10250 George Town, Pulau Pinang, Malaysia",5.435694,100.3114569,Shojikiya @ Gurney Paragon,supermarkets
-"50, Jalan Kelawai, Pulau Tikus, 10250 George Town, Pulau Pinang, Malaysia",5.4314273,100.3149197,Meijiya Enterprise,supermarkets
-"294, Jalan Thean Teik, Kampung Melayu, 11500 Ayer Itam, Pulau Pinang, Malaysia",5.395849399999999,100.2862218,Sunshine Farlim Shopping Mall,supermarkets
-"1, 6 H, 16, Thean Teik Hwy, Farlim, 11500 Air Itam, Penang, Malaysia",5.394887799999999,100.2894463,HeroMarket,supermarkets
-"1, Lintang Angsana, Bandar Baru Air Itam, 11500 Ayer Itam, Pulau Pinang, Malaysia",5.387589,100.282781,Farlim Property Sdn Bhd,supermarkets
-"LG Floor, IP Tower Island Plaza, No. 118 Jalan Tanjung Tokong, 10470 Penang, Malaysia",5.4502578,100.3061725,Cold Storage Island Plaza,supermarkets
-"405, Thean Teik Hwy, Farlim, 11500 Air Itam, Penang, Malaysia",5.394689899999999,100.2893947,Noko Penang,supermarkets
-"131, Jalan Hutton, George Town, 10050 George Town, Pulau Pinang, Malaysia",5.4203776,100.3295986,DnG Penang Chain Store,supermarkets
-"2-1-13 The Latitude Complex, Persiaran Halia 3, 11200 Tanjung Bungah, Penang, Malaysia",5.4497886,100.2979747,Andy's Grocery 24 Hour & Styling Unsex Salon,supermarkets
-"192, Jln Burma Kampung Syed, Penang, Malaysia, 10350 George Town, Malaysia",5.425142000000001,100.3193047,Hong Kee Huan,supermarkets
-"3-A, Jalan Gottlieb, George Town, 10350 George Town, Pulau Pinang, Malaysia",5.4331524,100.3025613,Lim Wah Thai,supermarkets
-"Cantonment Highway, Pulau Tikus, 10350 George Town, Penang, Malaysia",5.4313424,100.3112925,Bandar Bsru Pulau Tikus Super Market,supermarkets
-"Lot LG 26, 26A, 27, Gurney Paragon Mall, 163-D, Persiaran Gurney, 10250 George Town, Pulau Pinang, Malaysia",5.4360371,100.3114509,"Jaya Grocer, Gurney Paragon",supermarkets
-"Solok Thean Tek, Ayer Itam, Pulau Pinang, Malaysia",5.3982224,100.2941858,Oven & Chalie,supermarkets
-"Malaysia, Penang, Air Itam, Kampung Melayu, Unnamed Road邮政编码: 11500",5.3955606,100.2858377,磨佬佬,supermarkets
-"50, Jalan Kelawai, Pulau Tikus, 10250 George Town, Pulau Pinang, Malaysia",5.4314273,100.3149197,Meijiya Enterprise,grocery
-"Penang Plaza, 126, Jalan Burmah, 10050 George Town, Pulau Pinang, Malaysia",5.4214934,100.3251475,Giant Supermarket Penang Plaza,grocery
-"B1-15, Gurney Plaza, 170, Pesiaran Gurney, 10250 George Town, Pulau Pinang, Malaysia",5.4370105,100.3087988,Cold Storage,grocery
-"10250 George Town, Penang, Malaysia",5.4354363,100.3114368,Jaya Grocer @ Gurney Paragon,grocery
-"Lot LG 26, 26A, 27, Gurney Paragon Mall, 163-D, Persiaran Gurney, 10250 George Town, Pulau Pinang, Malaysia",5.4360371,100.3114509,"Jaya Grocer, Gurney Paragon",grocery
-"3-A, Jalan Gottlieb, George Town, 10350 George Town, Pulau Pinang, Malaysia",5.4331524,100.3025613,Lim Wah Thai,grocery
-"1, Jalan Dato Keramat, 10000 George Town, Pulau Pinang, Malaysia",5.413531,100.3281616,Gama Supermaket & Departmental Store,grocery
-"LG Floor, IP Tower Island Plaza, No. 118 Jalan Tanjung Tokong, 10470 Penang, Malaysia",5.4502578,100.3061725,Cold Storage Island Plaza,grocery
-"2 A, Jalan Angsana, Bandar Baru Ayer Itam, 11500 Ayer Itam, Pulau Pinang, Malaysia",5.38769,100.283356,New City Supermarket,grocery
-"Axis Complex, Pulau Tikus, 10350 George Town, Pulau Pinang, Malaysia",5.431337,100.3112902,Bandar Baru (Pulau Tikus) Supermarket,grocery
-"Lower Ground Floor, IP Tower Island Plaza, 118, Jalan Tanjong Tokong, Seri Tanjung Pinang, 10470 Tanjung Tokong, Pulau Pinang, Malaysia",5.4502489,100.3061719,Cold Storage,grocery
-"14, Jalan Mas, Taman Guan Joo Seng, 11600 Jelutong, Pulau Pinang, Malaysia",5.395288,100.30157,Tong stores Gas,grocery
-"No. 608 M & N, Jalan Paya Terubong, Pulau Pinang, 11500 Air Itam, Malaysia",5.400690399999999,100.2781947,Suiwah Air Itam,grocery
-"1, 6 H, 16, Thean Teik Hwy, Farlim, 11500 Air Itam, Penang, Malaysia",5.394887799999999,100.2894463,HeroMarket,grocery
-"192, Jln Burma Kampung Syed, Penang, Malaysia, 10350 George Town, Malaysia",5.425142000000001,100.3193047,Hong Kee Huan,grocery
-"No. 90, 90A, 90B, 90C & 90D, Persiaran Gurney, Pulau Pinang, 10250 George Town, Malaysia",5.4341393,100.3147971,Master Ahead Sdn. Bhd.,grocery
-"298, Jalan Burma, 10350 George Town, Pulau Pinang, Malaysia",5.432057899999999,100.311505,Ban Joo Lee,grocery
-"Lot R9 , Sunshine Jelutong, 385 1-1 , Jalan Perak, Jelutong, 11600 George Town, Penang, Malaysia",5.3942985,100.3147148,Baguni Korean Concept Store,grocery
-"No. 19 A, Jalan Zoo Ayer Itam, Pulau Pinang, 11500 Timur Laut, Malaysia",5.400993,100.284327,Gold Crisp Enterprise,grocery
-"No. 9, Jalan Westlands, Pulau Pinang, 10400 George Town, Malaysia",5.420499,100.322594,Huah Seang Trading Company,grocery
+index,addr,lat,lng,name,type
+0,"Penang Plaza, 126, Jalan Burmah, 10050 George Town, Pulau Pinang, Malaysia",5.4214934,100.3251475,Giant Supermarket Penang Plaza,supermarkets
+1,"Axis Complex, Pulau Tikus, 10350 George Town, Pulau Pinang, Malaysia",5.431337,100.3112902,Bandar Baru (Pulau Tikus) Supermarket,supermarkets
+2,"B1-15, Gurney Plaza, 170, Pesiaran Gurney, 10250 George Town, Pulau Pinang, Malaysia",5.4370105,100.3087988,Cold Storage,supermarkets
+3,"1, Jalan Dato Keramat, 10000 George Town, Pulau Pinang, Malaysia",5.413531,100.3281616,Gama Supermaket & Departmental Store,supermarkets
+4,"2 A, Jalan Angsana, Bandar Baru Ayer Itam, 11500 Ayer Itam, Pulau Pinang, Malaysia",5.38769,100.283356,New City Supermarket,supermarkets
+5,"163 D - 6 - 35, Lorong Kelawai, 10250 George Town, Pulau Pinang, Malaysia",5.435694,100.3114569,Shojikiya @ Gurney Paragon,supermarkets
+6,"50, Jalan Kelawai, Pulau Tikus, 10250 George Town, Pulau Pinang, Malaysia",5.4314273,100.3149197,Meijiya Enterprise,supermarkets
+7,"294, Jalan Thean Teik, Kampung Melayu, 11500 Ayer Itam, Pulau Pinang, Malaysia",5.395849399999999,100.2862218,Sunshine Farlim Shopping Mall,supermarkets
+8,"1, 6 H, 16, Thean Teik Hwy, Farlim, 11500 Air Itam, Penang, Malaysia",5.394887799999999,100.2894463,HeroMarket,supermarkets
+9,"1, Lintang Angsana, Bandar Baru Air Itam, 11500 Ayer Itam, Pulau Pinang, Malaysia",5.387791000000001,100.2826097,Farlim Property Sdn Bhd,supermarkets
+10,"LG Floor, IP Tower Island Plaza, No. 118 Jalan Tanjung Tokong, 10470 Penang, Malaysia",5.4502578,100.3061725,Cold Storage Island Plaza,supermarkets
+11,"131, Jalan Hutton, George Town, 10050 George Town, Pulau Pinang, Malaysia",5.4203776,100.3295986,DnG Penang Chain Store,supermarkets
+12,"2-1-13 The Latitude Complex, Persiaran Halia 3, 11200 Tanjung Bungah, Penang, Malaysia",5.4497886,100.2979747,Andy's Grocery 24 Hour & Styling Unsex Salon,supermarkets
+13,"192, Jln Burma Kampung Syed, Penang, Malaysia, 10350 George Town, Malaysia",5.425142000000001,100.3193047,Hong Kee Huan,supermarkets
+14,"3-A, Jalan Gottlieb, George Town, 10350 George Town, Pulau Pinang, Malaysia",5.4331524,100.3025613,Lim Wah Thai,supermarkets
+15,"Cantonment Highway, Pulau Tikus, 10350 George Town, Penang, Malaysia",5.4313424,100.3112925,Bandar Bsru Pulau Tikus Super Market,supermarkets
+16,"Lot LG 26, 26A, 27, Gurney Paragon Mall, 163-D, Persiaran Gurney, 10250 George Town, Pulau Pinang, Malaysia",5.4360371,100.3114509,"Jaya Grocer, Gurney Paragon",supermarkets
+17,"Solok Thean Tek, Ayer Itam, Pulau Pinang, Malaysia",5.3982224,100.2941858,Oven & Chalie,supermarkets
+18,"Malaysia, Penang, Air Itam, Kampung Melayu, Unnamed Road邮政编码: 11500",5.3955606,100.2858377,磨佬佬,supermarkets
+19,"Lebuh Halia 1, Tanjong Takong, 10470 George Town, Pulau Pinang, Malaysia",5.4515115,100.2997792,Mohammad roj,supermarkets
+22,"10250 George Town, Penang, Malaysia",5.4354363,100.3114368,Jaya Grocer @ Gurney Paragon,grocery
+31,"37 C, Jalan Cantonment, Pulau Tikus, 10350 George Town, Pulau Pinang, Malaysia",5.432277,100.311849,OK Treats And Gifts,grocery
+33,"298, Jalan Burma, 10350 George Town, Pulau Pinang, Malaysia",5.432057899999999,100.311505,Ban Joo Lee,grocery
+34,"No. 90, 90A, 90B, 90C & 90D, Persiaran Gurney, Pulau Pinang, 10250 George Town, Malaysia",5.4341393,100.3147971,Master Ahead Sdn. Bhd.,grocery
+35,"No. 19 A, Jalan Zoo Ayer Itam, Pulau Pinang, 11500 Timur Laut, Malaysia",5.400993,100.284327,Gold Crisp Enterprise,grocery
+36,"No. 9, Jalan Westlands, Pulau Pinang, 10400 George Town, Malaysia",5.420499,100.322594,Huah Seang Trading Company,grocery
+38,"No. 282, Jalan Air Hitam, Pulau Pinang, 11500 Air Itam, Malaysia",5.4053251,100.2945062,Yong & Co.,grocery
+39,"260, Jalan Burma, Pulau Tikus, 10350 George Town, Pulau Pinang, Malaysia",5.4311109,100.312389,Sithi Vinayagananda Store,grocery
