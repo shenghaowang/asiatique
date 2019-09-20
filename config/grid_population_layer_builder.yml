@@ -1,0 +1,35 @@
+input:
+  grid_file: data/penang_grid_EPSG3857_WGS84_v3.csv
+  residential_buildings_file: data/penang_residential_buildings.csv
+  grid_shape_file: data/penang_grid_EPSG3857_WGS84_v3.shp
+
+district_population:
+  - 228000
+  - 191400
+  - 422900
+  - 331900
+  - 572500
+
+output:
+  grid_geocode_file: data/grid_center_geocode.csv
+  grid_population_file: data/penang_grid_population.csv
+  grid_population_shape_file: data/penang_grid_population.shp
+
+logging:
+  version: 1
+  root:
+    level: INFO
+    handlers: [console, logfile]
+  formatters:
+    simple:
+      format: '%(asctime)s %(levelname)s--: %(message)s'
+  handlers:
+    console:
+      class: logging.StreamHandler
+      formatter: simple
+    logfile:
+      class: logging.FileHandler
+      level: INFO
+      filename: log/grid_population_layer_builder.log
+      formatter: simple
+      mode: "w"
