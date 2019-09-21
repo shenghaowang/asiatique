@@ -9,7 +9,8 @@ input:
   grid_geocode_file: data/grid_center_geocode.csv
 
 output:
-  grid_to_supermarket_dist_file: data/grid_to_supermarket_dist.json
+  grid_to_supermarket_dist_raw: data/grid_to_supermarket_dist.json
+  grid_to_supermarket_dist_data: data/grid_to_supermarket_dist.csv
 
 logging:
   version: 1

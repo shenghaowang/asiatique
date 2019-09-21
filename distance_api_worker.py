@@ -4,6 +4,7 @@ import logging
 import logging.config
 import yaml
 import json
+import time
 import googlemaps
 from addict import Dict as Addict
 
@@ -40,38 +41,48 @@ def main(config_file):
         logging.basicConfig(level=logging.INFO,
                             format="%(asctime)s - %(levelname)s - %(message)s")
     supermarkets_file = conf.get("input").get("supermarkets_file")
+    logging.info("Loading geocode of supermarkets from %s", supermarkets_file)
     supermarkets_file_reader = csv.reader(open(supermarkets_file))
     supermarkets_file_header = next(supermarkets_file_reader)
     supermarkets = []
     for row in supermarkets_file_reader:
         supermarket = dict(zip(supermarkets_file_header, row))
         supermarkets.append(supermarket)
-
+    logging.info("%s supermarkets located in the city.", len(supermarkets))
+    
     grid_geocode_file = conf.get("input").get("grid_geocode_file")
+    logging.info("Loading geocode of city grids from %s", grid_geocode_file)
     grids_file_reader = csv.reader(open(grid_geocode_file))
     grids_file_header = next(grids_file_reader)
     grids = []
     for row in grids_file_reader:
         grid = dict(zip(grids_file_header, row))
         grids.append(grid)
+    logging.info("The city is covered by %s 1km x 1km grids.", len(grids))
 
     api_key = conf.get("API").get("KEY")
     gmaps = googlemaps.Client(key=api_key)
     results = []
-    for grid in grids[:2]:
-        logging.info("grid: %s", grid)
-        for supermarket in supermarkets[:3]:
-            logging.info("supermarket: %s", supermarket)
+    counter = 0
+    logging.info("Start querying driving time from city grid to supermarkets ...")
+    start_time = time.time()
+    for grid in grids:
+        for supermarket in supermarkets:
+            logging.debug("Processing grid: %s - supermarket: %s", grid, supermarket)
             dist_api_worker = DistAPIWorker(gmaps, grid, supermarket)
             response = dist_api_worker.run()
             results.append(response)
+            counter += 1
+            if counter % 100 == 0:
+                logging.info("%s grid-supermarket pair processed ... Elapsed time %s seconds",
+                             counter, round(time.time() - start_time, 4))
 
     # Export query responses to file
     if len(results) > 0:
-        results_fp = conf.get("output").get("grid_to_supermarket_dist_file")
+        results_fp = conf.get("output").get("grid_to_supermarket_dist_raw")
         with open(results_fp, 'w') as output_file:
             json.dump(results, output_file, indent=4)
-        logging.info("Query responses dumped to %s", results_fp)
+        logging.info("%s query responses dumped to %s", len(results), results_fp)
 
 
 if __name__ == "__main__":
