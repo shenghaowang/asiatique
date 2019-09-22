@@ -1,4 +1,3 @@
-import csv
 import argparse
 import logging
 import logging.config
@@ -6,6 +5,12 @@ import yaml
 import json
 import pandas as pd
 from addict import Dict as Addict
+
+
+def catch_supermarkets(grid_id, dist_df, max_driving_time):
+    caught_dist_df = dist_df.loc[(dist_df["grid_id"] == grid_id) & \
+                                 (dist_df["driving_time"] <= max_driving_time)]
+    return caught_dist_df.shape[0]
 
 
 def main(config_file):
@@ -44,6 +49,9 @@ def main(config_file):
     output_file = conf.get("output").get("grid_to_supermarket_dist_data")
     dist_df.to_csv(output_file, index=False)
     logging.info("%s distance query results written to %s", len(dist_data), output_file)
+
+    max_driving_time = conf.get("max_driving_time")
+
 
 
 if __name__ == "__main__":

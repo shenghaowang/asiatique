@@ -4,6 +4,8 @@ API:
   KEY: "AIzaSyCi32iADoxAp_5UckfIfDLHkjUL4wg3PCo"
   URL: "https://maps.googleapis.com/maps/api/distancematrix/json?"
 
+max_driving_time: 1200 # in seconds
+
 input:
   supermarkets_file: data/suppliers_penang.csv
   grid_geocode_file: data/grid_center_geocode.csv
