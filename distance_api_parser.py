@@ -1,3 +1,4 @@
+import csv
 import argparse
 import logging
 import logging.config
@@ -36,7 +37,7 @@ def main(config_file):
                         dist_obj["distance"] = element.get("distance").get("value")
                     else:
                         dist_obj["distance"] = None
-                    
+
                     if element.get("duration"):
                         dist_obj["driving_time"] = element.get("duration").get("value")
                     else:
@@ -50,8 +51,17 @@ def main(config_file):
     dist_df.to_csv(output_file, index=False)
     logging.info("%s distance query results written to %s", len(dist_data), output_file)
 
-    max_driving_time = conf.get("max_driving_time")
+    supermarket_counts = {}
+    max_driving_time = int(conf.get("max_driving_time"))
+    for grid_id in dist_df["grid_id"].unique():
+        supermarket_counts[grid_id] = catch_supermarkets(grid_id, dist_df, max_driving_time)
 
+    supermarket_counts_fp = conf.get("output").get("supermarket_counts_file")
+    with open(supermarket_counts_fp, 'w') as supermarket_counts_file:
+        writer = csv.writer(supermarket_counts_file)
+        for grid_id, supermarket_count in supermarket_counts.items():
+            writer.writerow([grid_id, supermarket_count])
+    logging.info("Counts of supermarkets written to %s", supermarket_counts_fp)
 
 
 if __name__ == "__main__":

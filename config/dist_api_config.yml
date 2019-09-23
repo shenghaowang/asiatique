@@ -9,10 +9,12 @@ max_driving_time: 1200 # in seconds
 input:
   supermarkets_file: data/suppliers_penang.csv
   grid_geocode_file: data/grid_center_geocode.csv
+  grid_population_file: data/penang_grid_population.csv
 
 output:
   grid_to_supermarket_dist_raw: data/grid_to_supermarket_dist.json
   grid_to_supermarket_dist_data: data/grid_to_supermarket_dist.csv
+  supermarket_density_file: data/supermarket_density.csv
 
 logging:
   version: 1
