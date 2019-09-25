@@ -14,6 +14,10 @@ def catch_supermarkets(grid_id, dist_df, max_driving_time):
     return caught_dist_df.shape[0]
 
 
+def compute_density(grid_id):
+    
+
+
 def main(config_file):
     conf = Addict(yaml.safe_load(open(config_file, 'r')))
     if conf.get("logging") is not None:
@@ -49,12 +53,15 @@ def main(config_file):
     dist_df = pd.DataFrame(dist_data)
     output_file = conf.get("output").get("grid_to_supermarket_dist_data")
     dist_df.to_csv(output_file, index=False)
-    logging.info("%s distance query results written to %s", len(dist_data), output_file)
+    logging.info("%s distance query results written to %s",
+                 len(dist_data), output_file)
 
     supermarket_counts = {}
+    supermarket_density = {}
     max_driving_time = int(conf.get("max_driving_time"))
     for grid_id in dist_df["grid_id"].unique():
         supermarket_counts[grid_id] = catch_supermarkets(grid_id, dist_df, max_driving_time)
+        supermarket_density[grid_id] = compute_density(grid_id, )
 
     supermarket_counts_fp = conf.get("output").get("supermarket_counts_file")
     with open(supermarket_counts_fp, 'w') as supermarket_counts_file:
