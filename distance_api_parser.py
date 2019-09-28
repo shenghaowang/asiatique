@@ -1,4 +1,3 @@
-import csv
 import argparse
 import logging
 import logging.config
@@ -14,8 +13,10 @@ def catch_supermarkets(grid_id, dist_df, max_driving_time):
     return caught_dist_df.shape[0]
 
 
-def compute_density(grid_id):
-    
+def compute_density(grid_id, grid_population, supermarket_counts):
+    if int(grid_id) not in supermarket_counts:
+        return float(grid_population) / 1
+    return float(grid_population) / int(supermarket_counts[grid_id])
 
 
 def main(config_file):
@@ -57,18 +58,20 @@ def main(config_file):
                  len(dist_data), output_file)
 
     supermarket_counts = {}
-    supermarket_density = {}
     max_driving_time = int(conf.get("max_driving_time"))
     for grid_id in dist_df["grid_id"].unique():
         supermarket_counts[grid_id] = catch_supermarkets(grid_id, dist_df, max_driving_time)
-        supermarket_density[grid_id] = compute_density(grid_id, )
+    
+    population_file = conf.get("input").get("grid_population_file")
+    logging.info("Loading simulated population of city grids from %s", population_file)
+    population_df = pd.read_csv(population_file)
+    population_df["density"] = population_df.apply(lambda pop: \
+        compute_density(pop["id"], pop["population"], supermarket_counts), axis=1)
+    density_df = population_df[["id", "density"]]
 
-    supermarket_counts_fp = conf.get("output").get("supermarket_counts_file")
-    with open(supermarket_counts_fp, 'w') as supermarket_counts_file:
-        writer = csv.writer(supermarket_counts_file)
-        for grid_id, supermarket_count in supermarket_counts.items():
-            writer.writerow([grid_id, supermarket_count])
-    logging.info("Counts of supermarkets written to %s", supermarket_counts_fp)
+    supermarket_density_file = conf.get("output").get("supermarket_density_file")
+    density_df.to_csv(supermarket_density_file, index=False)
+    logging.info("Density of supermarkets written to %s", supermarket_density_file)
 
 
 if __name__ == "__main__":
