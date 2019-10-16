@@ -2,8 +2,14 @@ API:
   KEY: "AIzaSyCi32iADoxAp_5UckfIfDLHkjUL4wg3PCo"
   URL: "https://maps.googleapis.com/maps/api/place/textsearch/json?"
 
+input:
+  filename: data/grid_center_geocode.csv
+  query: supermarket,grocery
+  radius: 2000
+
 output:
-  filename: data/suppliers_penang.csv
+  existing_supermarkets_raw: data/suppliers_penang_raw.json
+  existing_supermarkets_data: data/suppliers_penang.csv
 
 logging:
   version: 1

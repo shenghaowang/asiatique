@@ -29,7 +29,7 @@ class DistAPIWorker:
         response = self.gmaps.distance_matrix(grid_geocode, supermarket_geocode,
                                               mode='driving')
         response["grid_id"] = self.city_grid.get("id")
-        response["supermarket_id"] = self.supermarket.get("index")
+        response["supermarket_i[d"] = self.supermarket.get("index")
         return response
 
 
@@ -73,7 +73,7 @@ def main(config_file):
             response = dist_api_worker.run()
             results.append(response)
             counter += 1
-            if counter % 100 == 0:
+            if counter % 1000 == 0:
                 logging.info("%s grid-supermarket pair processed ... Elapsed time %s seconds",
                              counter, round(time.time() - start_time, 4))
 

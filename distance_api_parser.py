@@ -4,7 +4,10 @@ import logging.config
 import yaml
 import json
 import pandas as pd
+import shapefile as shp
+import geopandas as gpd
 from addict import Dict as Addict
+from osm_preprocessor import read_shapefile
 
 
 def catch_supermarkets(grid_id, dist_df, max_driving_time):
@@ -69,9 +72,23 @@ def main(config_file):
         compute_density(pop["id"], pop["population"], supermarket_counts), axis=1)
     density_df = population_df[["id", "density"]]
 
+    grid_shape = conf.get("input").get("grid_shape_file")
+    sf = shp.Reader(grid_shape)
+    shp_df = read_shapefile(sf)
+    logging.info("Shape of shp_df: %s", shp_df.shape)
+    logging.info(shp_df.head())
+    density_shp_df = pd.merge(shp_df, density_df, left_on='id', right_on='id', how='outer')
+    density_shp_df = density_shp_df.drop("coords", axis=1)
+    logging.info("Export supermarket density to text file")
     supermarket_density_file = conf.get("output").get("supermarket_density_file")
-    density_df.to_csv(supermarket_density_file, index=False)
-    logging.info("Density of supermarkets written to %s", supermarket_density_file)
+    density_shp_df.to_csv(supermarket_density_file, index=False)
+    logging.info(density_shp_df.head())
+    gdf = gpd.read_file(grid_shape)
+    gdf = gdf.to_crs({'init': 'epsg:3857'})
+    gdf["density"] = density_shp_df["density"]
+    supermarket_density_shape_file = conf.get("output").get("supermarket_density_shape_file")
+    gdf.to_file(supermarket_density_shape_file)
+    logging.info("Supermarket density added to the shape file of city grid layer")
 
 
 if __name__ == "__main__":

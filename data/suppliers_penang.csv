@@ -1,29 +1,465 @@
 index,addr,lat,lng,name,type
-0,"Penang Plaza, 126, Jalan Burmah, 10050 George Town, Pulau Pinang, Malaysia",5.4214934,100.3251475,Giant Supermarket Penang Plaza,supermarkets
-1,"Axis Complex, Pulau Tikus, 10350 George Town, Pulau Pinang, Malaysia",5.431337,100.3112902,Bandar Baru (Pulau Tikus) Supermarket,supermarkets
-2,"B1-15, Gurney Plaza, 170, Pesiaran Gurney, 10250 George Town, Pulau Pinang, Malaysia",5.4370105,100.3087988,Cold Storage,supermarkets
-3,"1, Jalan Dato Keramat, 10000 George Town, Pulau Pinang, Malaysia",5.413531,100.3281616,Gama Supermaket & Departmental Store,supermarkets
-4,"2 A, Jalan Angsana, Bandar Baru Ayer Itam, 11500 Ayer Itam, Pulau Pinang, Malaysia",5.38769,100.283356,New City Supermarket,supermarkets
-5,"163 D - 6 - 35, Lorong Kelawai, 10250 George Town, Pulau Pinang, Malaysia",5.435694,100.3114569,Shojikiya @ Gurney Paragon,supermarkets
-6,"50, Jalan Kelawai, Pulau Tikus, 10250 George Town, Pulau Pinang, Malaysia",5.4314273,100.3149197,Meijiya Enterprise,supermarkets
-7,"294, Jalan Thean Teik, Kampung Melayu, 11500 Ayer Itam, Pulau Pinang, Malaysia",5.395849399999999,100.2862218,Sunshine Farlim Shopping Mall,supermarkets
-8,"1, 6 H, 16, Thean Teik Hwy, Farlim, 11500 Air Itam, Penang, Malaysia",5.394887799999999,100.2894463,HeroMarket,supermarkets
-9,"1, Lintang Angsana, Bandar Baru Air Itam, 11500 Ayer Itam, Pulau Pinang, Malaysia",5.387791000000001,100.2826097,Farlim Property Sdn Bhd,supermarkets
-10,"LG Floor, IP Tower Island Plaza, No. 118 Jalan Tanjung Tokong, 10470 Penang, Malaysia",5.4502578,100.3061725,Cold Storage Island Plaza,supermarkets
-11,"131, Jalan Hutton, George Town, 10050 George Town, Pulau Pinang, Malaysia",5.4203776,100.3295986,DnG Penang Chain Store,supermarkets
-12,"2-1-13 The Latitude Complex, Persiaran Halia 3, 11200 Tanjung Bungah, Penang, Malaysia",5.4497886,100.2979747,Andy's Grocery 24 Hour & Styling Unsex Salon,supermarkets
-13,"192, Jln Burma Kampung Syed, Penang, Malaysia, 10350 George Town, Malaysia",5.425142000000001,100.3193047,Hong Kee Huan,supermarkets
-14,"3-A, Jalan Gottlieb, George Town, 10350 George Town, Pulau Pinang, Malaysia",5.4331524,100.3025613,Lim Wah Thai,supermarkets
-15,"Cantonment Highway, Pulau Tikus, 10350 George Town, Penang, Malaysia",5.4313424,100.3112925,Bandar Bsru Pulau Tikus Super Market,supermarkets
-16,"Lot LG 26, 26A, 27, Gurney Paragon Mall, 163-D, Persiaran Gurney, 10250 George Town, Pulau Pinang, Malaysia",5.4360371,100.3114509,"Jaya Grocer, Gurney Paragon",supermarkets
-17,"Solok Thean Tek, Ayer Itam, Pulau Pinang, Malaysia",5.3982224,100.2941858,Oven & Chalie,supermarkets
-18,"Malaysia, Penang, Air Itam, Kampung Melayu, Unnamed Road邮政编码: 11500",5.3955606,100.2858377,磨佬佬,supermarkets
-19,"Lebuh Halia 1, Tanjong Takong, 10470 George Town, Pulau Pinang, Malaysia",5.4515115,100.2997792,Mohammad roj,supermarkets
-22,"10250 George Town, Penang, Malaysia",5.4354363,100.3114368,Jaya Grocer @ Gurney Paragon,grocery
-31,"37 C, Jalan Cantonment, Pulau Tikus, 10350 George Town, Pulau Pinang, Malaysia",5.432277,100.311849,OK Treats And Gifts,grocery
-33,"298, Jalan Burma, 10350 George Town, Pulau Pinang, Malaysia",5.432057899999999,100.311505,Ban Joo Lee,grocery
-34,"No. 90, 90A, 90B, 90C & 90D, Persiaran Gurney, Pulau Pinang, 10250 George Town, Malaysia",5.4341393,100.3147971,Master Ahead Sdn. Bhd.,grocery
-35,"No. 19 A, Jalan Zoo Ayer Itam, Pulau Pinang, 11500 Timur Laut, Malaysia",5.400993,100.284327,Gold Crisp Enterprise,grocery
-36,"No. 9, Jalan Westlands, Pulau Pinang, 10400 George Town, Malaysia",5.420499,100.322594,Huah Seang Trading Company,grocery
-38,"No. 282, Jalan Air Hitam, Pulau Pinang, 11500 Air Itam, Malaysia",5.4053251,100.2945062,Yong & Co.,grocery
-39,"260, Jalan Burma, Pulau Tikus, 10350 George Town, Pulau Pinang, Malaysia",5.4311109,100.312389,Sithi Vinayagananda Store,grocery
+0,"Jalan Hassan Abas, Teluk Bahang, 11050 Tanjung Bungah, Pulau Pinang, Malaysia",5.457838499999999,100.2142888,Haji Mujahir Enterprise Conveniant store,supermarket
+1,"45, Jalan Tanjung Bungah, Kampung Batu Feringgi, 11100 Ayer Itam, Pulau Pinang, Malaysia",5.471571099999999,100.2465259,Dorset Mini Market,supermarket
+2,"UNit S - G - 11, Ferringhi Mutiara Arcade, Jalan Sungai Emas, 11100 Batu Ferringhi, Pulau Pinang, Malaysia",5.475048,100.2523609,Hoay Seng Chan Mini Market,supermarket
+3,"B1-15, Gurney Plaza, 170, Pesiaran Gurney, 10250 George Town, Pulau Pinang, Malaysia",5.4370105,100.3087988,Cold Storage,supermarket
+4,"Penang Plaza, 126, Jalan Burmah, 10050 George Town, Pulau Pinang, Malaysia",5.4214934,100.3251475,Giant Supermarket Penang Plaza,supermarket
+5,"Axis Complex, Pulau Tikus, 10350 George Town, Pulau Pinang, Malaysia",5.431337,100.3112902,Bandar Baru (Pulau Tikus) Supermarket,supermarket
+6,"1, Jalan Dato Keramat, 10000 George Town, Pulau Pinang, Malaysia",5.413531,100.3281616,Gama Supermaket & Departmental Store,supermarket
+7,"LG Floor, IP Tower Island Plaza, No. 118 Jalan Tanjung Tokong, 10470 Penang, Malaysia",5.4502578,100.3061725,Cold Storage Island Plaza,supermarket
+8,"675, Jalan Sungai Dua, Sungai Dua, 11700 Gelugor, Pulau Pinang, Malaysia",5.3513584,100.29605,Tesco Extra,supermarket
+9,"Kompleks Sri Wonder, No. 88-G-7 & 88- 10150, 1-7, Lintang Sungai Pinang, George Town, 10150 George Town, Pulau Pinang, Malaysia",5.4025162,100.318216,Bandar Baru (Jelutong) Supermaket Sdn. Bhd.,supermarket
+10,"10250 George Town, Penang, Malaysia",5.4354363,100.3114368,Jaya Grocer @ Gurney Paragon,supermarket
+11,"No. 608 M & N, Jalan Paya Terubong, Pulau Pinang, 11500 Air Itam, Malaysia",5.400690399999999,100.2781947,Suiwah Air Itam,supermarket
+12,"2 A, Jalan Angsana, Bandar Baru Ayer Itam, 11500 Ayer Itam, Pulau Pinang, Malaysia",5.38769,100.283356,New City Supermarket,supermarket
+13,"1, 6 H, 16, Thean Teik Hwy, Farlim, 11500 Air Itam, Penang, Malaysia",5.394887799999999,100.2894463,HeroMarket,supermarket
+14,"385-1-1, Jalan Perak, Jelutong, 11600 George Town, Pulau Pinang, Malaysia",5.3942519,100.3147047,Sunshine Jelutong,supermarket
+15,"Unit No.3G-G-5 To 8 & 3G-G-12 To 13A Block G, Straits Quay, Jalan Seri Tanjung Pinang, Seri Tanjung Pinang, 10470 Tanjong Tokong, Pulau Pinang, Malaysia",5.4580775,100.3128472,Sam's Groceria,supermarket
+16,"258, Jalan Penang, George Town, 10050 George Town, Pulau Pinang, Malaysia",5.418659400000001,100.3313843,Mydin,supermarket
+17,"1, Jalan Seri Tg Pinang, Seri Tanjung Pinang, 10470 Tanjung Tokong, Pulau Pinang, Malaysia",5.458937199999999,100.3087485,Tesco Seri Tanjung Pinang,supermarket
+18,"59,57,61, 73, Lebuh Penang, George Town, 10200 George Town, Pulau Pinang, Malaysia",5.4173306,100.3402182,Pasaraya Ramani (RS SUPERSTORE SDN BHD),supermarket
+19,"Lot LG 26, 26A, 27, Gurney Paragon Mall, 163-D, Persiaran Gurney, 10250 George Town, Pulau Pinang, Malaysia",5.4360371,100.3114509,"Jaya Grocer, Gurney Paragon",supermarket
+39,"Thean Teik Hwy, Taman Lone Pine, 11500 Air Itam, Penang, Malaysia",5.385739,100.2762371,Econsave Ayer Hitam,supermarket
+40,"294, Jalan Thean Teik, Kampung Melayu, 11500 Ayer Itam, Pulau Pinang, Malaysia",5.395849399999999,100.2862218,Sunshine Farlim Shopping Mall,supermarket
+41,"B-G-1, Jalan Desiran Tanjung Vantage, 10470, 10470, Pulau Pinang, Malaysia",5.4559087,100.307628,Kim's Mart,supermarket
+42,"78, Jalan Tengah, 11900 Bayan Lepas, Pulau Pinang, Malaysia",5.320624,100.284208,Giant Hypermarket,supermarket
+43,"B1, Pan Palace Plaza, 2A, Lengkok Nipah, Taman Lip Sin, 11700 Bayan Lepas, Pulau Pinang, Malaysia",5.3415342,100.293637,Sunshine Lip Sin,supermarket
+48,"Blok 28, Thean Teik Hwy, Taman Lone Pine, 11060 Air Itam, Penang, Malaysia",5.3857347,100.2762458,Econsave Cash & Carry Sdn Bhd,supermarket
+49,"188-I, Jalan SG Tiram, 11900 Bayan Lepas, Pulau Pinang, 11900, Malaysia",5.303190000000001,100.27667,Pasaraya Long Wan Sdn Bhd,supermarket
+50,"1, Jalan Mayang Pasir, Bandar Bayan Baru, 11950 Bayan Lepas, Pulau Pinang, Malaysia",5.3260418,100.2870723,Sunshine Square,supermarket
+51,"17-1, Lintang Batu Maung 1, 11960 Batu Maung, Pulau Pinang, Malaysia",5.2883204,100.2815861,7-eleven @ Batu Maung,supermarket
+52,"No. 35, Persiaran Mahsuri 1/3, Sunway Tunas, 11900 Bayan Lepas, Malaysia",5.323643,100.279189,Nestle Products Sdn. Bhd.,supermarket
+56,"207, Mukim 12, Jalan Batu Maung, 11960, Batu Maung, Pulau Pinang, 11960, Malaysia",5.287612,100.283213,Kim San Mini Market,supermarket
+57,"117, Lebuh Penang, George Town, 10200 George Town, Pulau Pinang, Malaysia",5.4161869,100.3395752,Sri Ganga Store Sdn Bhd,supermarket
+71,"21-37, Jalan Tun Sardon, 11020 Balik Pulau, Pulau Pinang, Malaysia",5.351227,100.2384008,Citrus Honey Mr. Ali Balik Pulau,supermarket
+72,"26, Lebuh Sungai Pinang 6, George Town, 10300 George Town, Pulau Pinang, Malaysia",5.399188,100.330861,Mix米克斯槟城店,supermarket
+87,"No. 489, Jln Kuala Jalan Baru, Kampung Jalan Baru, 11000 Balik Pulau, Pulau Pinang, Malaysia",5.3529992,100.203901,Kedai Runcit Soon Hwa,supermarket
+101,"No. 82-1, Persiaran Bayan Indah, Pulau Pinang, 11900 Bayan Lepas, Malaysia",5.335342000000001,100.307086,Nestle Products Sdn. Bhd.,supermarket
+104,"Paya Terubong, Air Itam, Penang, Malaysia",5.3660418,100.2752189,FRESH EXPRESS MART,supermarket
+106,"P16, Kampung Jalan Baharu, 11010 Balik Pulau, Pulau Pinang, Malaysia",5.3442307,100.2080487,Cik Lanz Umpan Hidup,supermarket
+107,"No. 195, Kampung Genting, Pulau Pinang, 11000 Balik Pulau, Malaysia",5.323568600000001,100.2129877,Sabqi Enterprise,supermarket
+108,"Gerai Perda, Gerai No. 8, Genting Balik Pulau, Pulau Pinang, 11000 Barat Daya, Malaysia",5.332436299999999,100.2169095,Siang Malam Enterprise,supermarket
+111,"No. 306i, Kampung Perlis, Pulau Pinang, 11000 Balik Pulau Barat Daya, Malaysia",5.3180828,100.2081513,Idana Servis Enterprise,supermarket
+112,"11960 Batu Maung, Penang, Malaysia",5.2794713,100.2771509,Pembekal Produk Ramly Penang HQ,supermarket
+113,"5-7, Jalan Vila Tanjung, 12300 Bayan Lepas, Pulau Pinang, Malaysia",5.329683,100.278088,Jayamas Superstore,supermarket
+115,"11050 Batu Ferringhi, Penang, Malaysia",5.467881500000001,100.2482439,ANNIES MINI MARKET,supermarket
+116,"1, Lintang Angsana, Bandar Baru Air Itam, 11500 Ayer Itam, Pulau Pinang, Malaysia",5.387791000000001,100.2826097,Farlim Property Sdn Bhd,supermarket
+124,"Kampung Teluk Kumbar, 11000 Bayan Lepas, Penang, Malaysia",5.289123,100.2359892,Kedai Runcit Chop Timun,supermarket
+125,"11000 Bayan Lepas, Penang, Malaysia",5.287602,100.2225886,Pasar Mini Ismail Gani,supermarket
+126,"No. 1, Pintasan Pasir Belanda 5, Pulau Pinang, 11910 Teluk Kumbar Bayan Lepas, Malaysia",5.284455299999999,100.2188668,Che Murad Ibrahim Enterprise,supermarket
+128,"Kampung Tanjung Huma, 11050 Batu Ferringhi, Penang, Malaysia",5.4758437,100.2511879,LEE GROCER MART,supermarket
+132,"1026, Jalan Dato Ismail Hashim, Sepuluh Kongsi, 11900 Sungai Ara, Pulau Pinang, 11900, Malaysia",5.30758,100.26509,Ikhwan Mart,supermarket
+133,"26, Solok Kekabu 1, Taman Desa Jelita, Jalan Permatang Damar Laut, 11960, Batu Maung, Pulau Pinang, 11960, Malaysia",5.279296700000001,100.2720629,Pasaraya Seri Idaman,supermarket
+136,"195-0-1, Jalan Batu Ferringhi, Kampung Batu Feringgi, 11100 Batu Ferringhi, Pulau Pinang, Malaysia",5.470515,100.2459279,Lim Keat Chye Mini Market,supermarket
+137,"10-15, Jalan Tanjung Bungah, Tanjung Tokong, 10470 Tanjung Bungah, Pulau Pinang, Malaysia",5.4659871,100.289396,Pasarava Mini-Market,supermarket
+140,"134G, Jln Paya Terubung, Pekan Ayer Itam, 11500 Ayer Itam, Pulau Pinang, Malaysia",5.3990505,100.2775269,Tesco Express - Ayer Itam,supermarket
+142,"5 - 1 - 4, Hunza Complex, Jalan Gangsa, Greenlane Heights, 11600 Jelutong, Pulau Pinang, Malaysia",5.3922739,100.2971539,E Mart,supermarket
+143,"3A,2,15-22, Jalan Rumbia, Bayan Lepas, 11900, Bayan Lepas, Pulau Pinang, 11900, Malaysia",5.335366,100.291678,Pasaran Sukaramai,supermarket
+144,"10-D-G, Jalan Tun Dr.Awang, Bukit Jambul, Bayan Baru, 11900, Bayan Lepas, Pulau Pinang, Malaysia",5.3215623,100.2769493,HMN Mini Mart,supermarket
+147,"188H-J, Jalan Sultan Azlan Shah, Kawasan Perindustrian Sungai Tiram, 11900 Bayan Lepas, Pulau Pinang, Malaysia",5.3032119,100.276507,Longwan,supermarket
+150,"LG, Kompleks Bukit Jambul, Jalan Rumbia, Kampung Seberang Paya, 11900 Bayan Lepas, Pulau Pinang, Malaysia",5.334056899999999,100.290964,Pasar Raya Besar Mydin,supermarket
+153,"5, Jalan Tanjung Bungah, 11100 Batu Ferringhi, Pulau Pinang, Malaysia",5.466275,100.242054,Qis One Stop Mini Market,supermarket
+154,"S-1-3A, Jalan Sungai Emas, Kawasan Perumahan Sungai Emas, 11100 Batu Ferringhi, Pulau Pinang, Malaysia",5.4747564,100.2517308,Liquer Store,supermarket
+187,"39, Jalan Pantai Jerjak 15, Taman Pantai Jerjak, 11700 Gelugor, Pulau Pinang, Malaysia",5.3407258,100.3029697,Wednesday Night Market,supermarket
+192,"41, Jalan Tun Sardon, 11020 Balik Pulau, Pulau Pinang, Malaysia",5.3512868,100.2387452,Watson,supermarket
+193,"11000 Balik Pulau, Penang, Malaysia",5.350316,100.2349501,Petronas,supermarket
+196,"No.1654 & 1655, Medan Sungai Besar, Jalan Sungai Limau, Sungai Besar, 45300, Sungai Besar, Selangor, 45300, Malaysia",5.31888,100.278,Pasaraya Ekonomi Sg. Besar,supermarket
+213,"Kompleks Bukit Jambul, Lot 3a-B-M01 Basement Floor Bl, Solok Kampung Relau 1, Pulau Pinang ‎, 11900 Bayan Lepas, Malaysia",5.333273200000001,100.2900174,Emporium Food Avenue Sdn. Bhd.,supermarket
+214,"Suntech @ Penang Cybercity, No. 1-G-12B, Lintang Mayang Pasir 3, Bayan Baru, Pulau Pinang, 11950 Bayan Lepas, Malaysia",5.3257933,100.2865504,Hai-O Raya Berhad,supermarket
+215,"80, Taman Tunas Muda, Jalan Dato Ismail Hashim, Sungai Ara, Bayan Lepas, 11900, Bayan Lepas, Pulau Pinang, 11900, Malaysia",5.3199822,100.2710222,Fitrah Unggul Sdn Bhd,supermarket
+216,"14, Lilitan Sungai Ara, Sungai Ara, 11900 Bayan Lepas, Pulau Pinang, Malaysia",5.332122399999999,100.2743016,"Kompleks Pasar, Makanan dan Pusat Komuniti Pagar Buloh",supermarket
+217,"3021, Persiaran Bayan Indah, 11900 Bayan Lepas, Penang, Malaysia",5.3334375,100.3068253,Magstore 松板库,supermarket
+221,"Astaka Airport Corner, Gerai No. 2, Jalan Garuda, Pulau Pinang, 11900 Bayan Lepas Barat Daya, Malaysia",5.294199799999999,100.2641522,Warisan Harfa Enterprise,supermarket
+225,"No 17, Lorong Tanjung Bunga 1, Beverly Hills, 11200 Tanjung Bungah, Pulau Pinang, Malaysia",5.4693156,100.2742185,DK VEGGIES TRADING,supermarket
+226,"Taman Pantai Batu, 11200 Tanjung Bungah, Penang, Malaysia",5.4750875,100.2761319,Tao Siah Peng Factory,supermarket
+228,"127, Jalan Sungai Kelian, Tanjung Tokong, 11200 Tanjung Bungah, Pulau Pinang, Malaysia",5.4632887,100.2848036,Kedai Buah-Buahan yeap kim toh,supermarket
+229,"1, Lebuh Tengku Kudin 1, 11700 Jelutong, Pulau Pinang, Malaysia",5.3773211,100.3155382,Tesco Penang,supermarket
+230,"Bayan Lepas, Penang, Malaysia",5.3396189,100.2736099,Pasar Mini Choon,supermarket
+233,"Tingkat Sungai Ara 1, Sungai Ara, 11900 Bayan Lepas, Pulau Pinang, Malaysia",5.3239287,100.2689851,Pasar Awam Desa Ara,supermarket
+244,"Cantonment Highway, Pulau Tikus, 10350 George Town, Penang, Malaysia",5.4313424,100.3112925,Bandar Bsru Pulau Tikus Super Market,supermarket
+249,"Jalan Lintang, 11500 Ayer Itam, Pulau Pinang, Malaysia",5.404234,100.277222,Cottage resources nyonya sambal,supermarket
+252,"Kampung Seberang Paya, 11900 Bayan Lepas, Penang, Malaysia",5.3360657,100.2907686,Tops Daily Sdn Bhd,supermarket
+255,"Jalan Dato Ismail Hashim, 11900 Bayan Lepas, Pulau Pinang, Malaysia",5.3175292,100.2683149,2 RAMD,supermarket
+256,"No. 2A, 02-06, Jalan Sungai Tiram 3, Taman Saujana Damai, 11900 Bayan Lepas, Penang, Malaysia",5.301025999999999,100.269197,Ammar Kashif Enterprise,supermarket
+257,"No. 3557a, Kampung Tersusun, Pulau Pinang, 11900 Sungai Ara Barat Daya, Malaysia",5.3224429,100.2750859,Fora Biz Enterprise,supermarket
+258,"188F, Jalan Sungai Tiram, Kawasan Perindustrian Sungai Tiram, 11900 Bayan Lepas, Pulau Pinang, Malaysia",5.303042599999999,100.27625,Pasaraya Wah Seah Maju Bayan Lepas,supermarket
+260,"37 prestige 5 jalan permatang damar laut Batu maung, 11960 bayan lepas, Penang, Malaysia",5.276709599999999,100.2673901,Rafidah majujaya enterprise,supermarket
+262,"No. 1114, Kampung Nelayan Teluk Kumbar, Pulau Pinang, 11920 Bayan Lepas Barat Daya, Malaysia",5.321008,100.2901349,Ninies Enterprise,supermarket
+263,"598-GF, 09, Jalan Tanjung Bungah, 11200 Tanjung Bungah, Penang, Malaysia",5.4646319,100.2842473,DC Mart Different C Mart,supermarket
+264,"BA-8, Kompleks Pasar MBPP Tanjung Bungah, 11200 Penang, Pulau Pinang, Malaysia",5.46355,100.284955,The Green Store,supermarket
+266,"no 18 jalan air itam 10460 pulau pinang, Jalan Air Itam, 10460 George Town, Pulau Pinang, Malaysia",5.4136555,100.3123735,barakath noor enterprise,supermarket
+267,"10, Medan Angsana 3, Bandar Baru Ayer Itam, 11500 Ayer Itam, Pulau Pinang, Malaysia",5.3896526,100.2840629,Two Zero Two Food Sdn Bhd (202) - Farlim (Noodles And Frozen Food),supermarket
+275,"560, Jalan Jelutong, Jelutong, 11600 George Town, Pulau Pinang, Malaysia",5.38984,100.312908,Shin Loh Loh Biscuits House,supermarket
+276,"Persiaran Bukit Jambul 2, Bukit Jambul, 11900 Bayan Lepas, Pulau Pinang, Malaysia",5.3321239,100.2803174,Relau indah condominium,supermarket
+277,"5-G-15 Taman Bendera, Lintang 1, Paya Terubong, Relau, 11900 Bayan Lepas, Penang, Malaysia",5.3395681,100.2738379,Foh Chin Heong,supermarket
+278,"No. 30-4-8, Sri Abadi, Persiaran Relau, Penang, 11900 Bayan Lepas, Malaysia",5.330347,100.27046,Emnal Enterprise,supermarket
+281,"1, Jalan Mayang Pasir, 11950, Bayan Lepas, Pulau Pinang, 11900, Malaysia",5.308697,100.279031,Pure Pharmacy Sdn. Bhd. @ Jalan Mayang Pasir,supermarket
+282,"29, Lebuhraya Batu Maung, Bayan Lepas, 11960, Batu Maung, Pulau Pinang, 11960, Malaysia",5.298249999999999,100.2818513,Pasar Mini Heng Lai,supermarket
+283,"15, Tingkat Satu Maung, Pekan Baru Batu Maung, 11900 Bayan Lepas, Pulau Pinang, Malaysia",5.2954864,100.2801524,Batu Maung Tuesday Night Market,supermarket
+287,"39, Batu Maung Highway, Taman Ipeng, 11960 Batu Maung, Penang, Malaysia",5.284424899999999,100.2813742,Batu Maung Tuesday Night Market,supermarket
+297,"No. 2, Jalan Goh Guan Ho, Penang, 11400 George Town, Malaysia",5.4090204,100.2965191,Tsh Enterprise,supermarket
+299,"610k, Jln Paya Terubung, Kampung Pisang, 11500 ayaritam Pulau Pinang, Malaysia",5.4002568,100.2781827,BH GOOD TRADING好利貿易公司,supermarket
+303,"7, Jalan Pantai Jerjak, Sungei Nibong, Penang, 11900, Bayan Lepas, Pulau Pinang, 11700, Malaysia",5.345553,100.302621,Teong Lee Mini Market,supermarket
+307,"Unnamed Road, Bukit Jambul, 11900 Bayan Lepas, Penang, Malaysia",5.3359488,100.2906114,JM Island Shop,supermarket
+308,"3A- B NG -M01, Kompleks Bukit Jambul, Jalan Rumbia, Bayan Baru, 11900 Bayan Lepas, Pulau Pinang, Malaysia",5.334405100000001,100.2909949,Mydin @Bukit Jambul,supermarket
+316,"Pangsapuri Jalan Tengah, 11900 Bayan Lepas, Penang, Malaysia",5.3175118,100.2871859,Pdc Flat Kampung Gedung 5,supermarket
+317,"11900 Bayan Lepas, Penang, Malaysia",5.3211716,100.2836754,Giant,supermarket
+321,"Block 42,G8-9-10, Jalan Van Praagh, Taman Desa Green, 11600 Jelutong, Pulau Pinang, Malaysia",5.398167,100.3108259,Niceone Cash & Carry,supermarket
+322,"3, Jalan Tapah, Taman Continental, 11600 George Town, Pulau Pinang, Malaysia",5.395872499999999,100.3145052,Pasaraya Hollywood,supermarket
+323,"337 G, Jalan Perak, Taman Ara, 11600 George Town, Pulau Pinang, Malaysia",5.3990709,100.3147446,Giant Panda (m) Sdn Bhd,supermarket
+325,"Greenlane Heights, 11600 Jelutong, Penang, Malaysia",5.393394499999999,100.2977663,Poh's Vege Stall,supermarket
+327,"129D&E, Jalan Tan Sri Teh Ewe Lim, Taman Sri Damai, 11600 Jelutong, Pulau Pinang, Malaysia",5.3923992,100.3077118,Swi Huat Mini Market Sdn Bhd,supermarket
+329,"Taman Tun Sardon, 11700 Gelugor, Penang, Malaysia",5.369165,100.3058296,Char Koay Teow,supermarket
+331,"Tingkat Paya Terubong 5, Taman Terubong Indah, George Town, Pulau Pinang, Malaysia",5.366127,100.2751357,AB Shaf Enterprise,supermarket
+333,"Jalan Sungai Dua, Kampung Dua Bukit, 11700 Gelugor, Pulau Pinang, Malaysia",5.35276,100.302405,Alharmayn market,supermarket
+334,"Jalan Sungai Dua, Kampung Dua Bukit, 11800 USM, Pulau Pinang, Malaysia",5.3527925,100.30253,nanoPODS.nanoSTIX Penang,supermarket
+335,"15, Jalan Pantai Jerjak 13, Sungai Nibong, 11900, Bayan Lepas, Pulau Pinang, 11700, Malaysia",5.340732099999999,100.3035148,Jit Chin Mini Market,supermarket
+336,"15 1St Floor Lorong Bukit Kecil, Off Jalan Sultan Azlan Shah, 11900 Sungai Nibong, Pulau Pinang, Malaysia",5.33777,100.299596,Biz One Venture Sdn Bhd,supermarket
+337,"25a, Jalan Pantai Jerjak 13, Taman Pantai Jerjak, 11700 Gelugor, Pulau Pinang, Malaysia",5.3405385,100.3037737,7-Eleven,supermarket
+338,"14300 Bayan Lepas, Penang, Malaysia",5.3333084,100.3065564,"C'EST LA VIE, Queensbaymall",supermarket
+339,"No 3, Lorong Bukit Kecil, Sungai Nibong, Bayan Lepas, 11900, Bayan Lepas, Pulau Pinang, 11900, Malaysia",5.3358465,100.301455,Sungai Nibong Mini Market,supermarket
+342,"No. C, 7-7, Jalan Tun Dr Awang, Taman Bukit Jambul, 11900 Bayan Lepas, Penang, Malaysia",5.330626,100.2943952,Arfie Bio Organic Farm,supermarket
+343,"11900 Bayan Lepas, Penang, Malaysia",5.3103928,100.2991626,Pasar nelayan seri jerjak,supermarket
+345,"3110, Kampung Paya, 12200 Butterworth, Penang, Malaysia",5.4141259,100.377004,Billion,supermarket
+346,"Lebuh Halia 1, Tanjong Takong, 10470 George Town, Pulau Pinang, Malaysia",5.4515115,100.2997792,Mohammad roj,supermarket
+347,"Tanjong Takong, 10470 Tanjung Tokong, Penang, Malaysia",5.4497021,100.2981219,Andy's Gorcery 24 Hour & Unisex Hair Salon,supermarket
+349,"15, Solak Moulmein, Pulau Tikus, 10350 George Town, Pulau Pinang, Malaysia",5.4300707,100.3122303,fruit vendor,supermarket
+350,"39b, Jalan Cantonment, 10350 George Town, Pulau Pinang, Malaysia",5.43227,100.311938,OK Food Spcialist,supermarket
+351,"No. 88, Jalan Air Itam, Pulau Pinang, 10460 George Town, Malaysia",5.412686,100.309466,Sin Hoe Huat (AS280895),supermarket
+352,"166, Lorong Ayer Itam, George Town, 10460 George Town, Pulau Pinang, Malaysia",5.413022,100.310091,Sin Lam Bee @ The Milk Shoppe,supermarket
+353,"192, Jln Burma Kampung Syed, Penang, Malaysia, 10350 George Town, Malaysia",5.425142000000001,100.3193047,Hong Kee Huan,supermarket
+354,"1-01, 07, Lintang Slim, Taman Desa Green, 11600 Jelutong, Penang, Malaysia",5.398861999999999,100.313044,Joy N Joy Mart,supermarket
+357,"Minden Heights, 11700 Gelugor, Penang, Malaysia",5.3636211,100.3096784,Minden Store & General Merchant,supermarket
+358,"First Floor, Blok 1D, Tingkat Batu Uban 1, Batu Uban, Pulau Pinang, 11700 Gelugor, Malaysia",5.3520902,100.3054758,Omni Mini Mart,supermarket
+359,"21-A, Lebuhraya Jelutong, Taman Jelutong, 11600 Jelutong, Pulau Pinang, Malaysia",5.387370499999999,100.3118639,CKH Marketing Sdn Bhd,supermarket
+365,"131, Jalan Hutton, George Town, 10050 George Town, Pulau Pinang, Malaysia",5.4203776,100.3295986,DnG Penang Chain Store,supermarket
+366,"No. 90, 90A, 90B, 90C & 90D, Persiaran Gurney, Pulau Pinang, 10250 George Town, Malaysia",5.4341393,100.3147971,Master Ahead Sdn. Bhd.,supermarket
+367,"123, 10000, Lebuh Tamil, George Town, 10100 George Town, Pulau Pinang, Malaysia",5.4176952,100.3320508,Shin Huat (Pasar Chowrasta),supermarket
+368,"Jalan Macalister, 10450 George Town, Pulau Pinang, Malaysia",5.420032099999999,100.3171266,LYE IMM MANUFACTURING,supermarket
+369,"172, Jalan Seang Tek, George Town, 10400 George Town, Pulau Pinang, Malaysia",5.4159306,100.3212831,Ban Huat Sundries Shop,supermarket
+370,"13, Jalan Kampung Jawa Lama, George Town, 10150 George Town, Pulau Pinang, Malaysia",5.4127865,100.3269865,Chang Shen F&B Supply,supermarket
+373,"1595 Jalan 1 Kampung Valdor, Sungai Bakap, 14200 George Town, Malaysia",5.4281695,100.3141246,Perniagaan JT Jaya Sdn Bhd,supermarket
+374,"No. A-0-5, Jalan Perak, Taman Abidin, Pulau Pinang, 10150 Timur Laut, Malaysia",5.409243,100.316005,Mfy Venture,supermarket
+375,"No. 9 Taman Perak, Pulau Pinang, 10150 George Town, Malaysia",5.4113371,100.3178663,Ohtrade (M) Sdn Bhd,supermarket
+378,"9-35, 1, Jalan Van Praagh, Jelutong, 11600 George Town, Penang, Malaysia",5.396261000000001,100.3135908,Mr 8 先生,supermarket
+379,"Jelutong park, 11600 Jelutong, Penang, Malaysia",5.387607099999999,100.3165551,Ameen Mini Market,supermarket
+384,"1f, 100, Persiaran Bayan Indah, 11900 Bayan Lepas, Penang, Malaysia",5.332137599999999,100.3073728,AEON,supermarket
+385,"24, Jalan Mayang Pasir, Bandar Bayan Baru, 11950 Bayan Lepas, Pulau Pinang, Malaysia",5.3256359,100.2879969,SANTAN TULIN KS COCONUT (PEMBORONG SANTAN KELAPA),supermarket
+387,"No 1, Jalan Chowrasta, George Town, 10100 George Town, Pulau Pinang, Malaysia",5.4182951,100.3314601,Jeruk Tempayan,supermarket
+388,"Ivory Tower, 77-4-1 & 77-4-2, Jalan Dato Keramat, 10000 George Town, Penang, Malaysia",5.412453300000001,100.3253809,M GALLERIA,supermarket
+390,"No. 140, Jalan Sungai, 10150, Pulau Pinang, Pulau Pinang, 10150, Malaysia",5.405734,100.323396,AJ Top Mart,supermarket
+391,"56-I, Jalan Jelutong, 11600 Jelutong, Penang, Malaysia",5.401930999999999,100.32384,Ming Siang Coffee Factory,supermarket
+392,"No. 1598, Jalan Tan Yee Joo, Pulau Pinang, 14000 Bukit Mertajam, Malaysia",5.419063,100.328937,Keat Huat Company,supermarket
+395,"1st floor, No. 23A, 2, Karpal Singh Dr, 11950 Jelutong, Malaysia",5.3986677,100.3303637,KVC Industrial Supplies Sdn Bhd,supermarket
+399,"458, Jalan Jelutong, Jelutong, 11600 Jelutong, Pulau Pinang, Malaysia",5.392512,100.313939,Jelutong Supermarket Furniture,supermarket
+401,"Muntri St, Georgetown, 10200 George Town, Penang, Malaysia",5.4201906,100.3350809,92 HOT MINI MARKET,supermarket
+402,"No. 2, Lebuh Cannon, Pulau Pinang, 10300 George Town, Malaysia",5.415096999999999,100.336806,Eng Guan Hang (M) Sdn. Bhd.,supermarket
+403,"no 32, Lebuh Tamil, George Town, 10100 George Town, Pulau Pinang, Malaysia",5.4174156,100.3318996,PNG FROZEN TRADING,supermarket
+404,"471, Jalan Penang, George Town, 10000 George Town, Pulau Pinang, Malaysia",5.4172758,100.330704,East Shine Local Delight Shop,supermarket
+406,"Lebuh Noordin, 10300 George Town, Pulau Pinang, Malaysia",5.4110885,100.3327539,瑞安和酱园 Swee on Woh Sauce Factory,supermarket
+407,"Sri Saujana Apartment, 42B-16-31 10300, 10300 George Town, Penang, Malaysia",5.4082431,100.334433,K1 Kaldnes,supermarket
+408,"Gat Lebuh Macalum, George Town, 10300 George Town, Pulau Pinang, Malaysia",5.406308999999999,100.335258,D 'Orient Mall,supermarket
+409,"10300 George Town, Penang, Malaysia",5.4059355,100.3358136,联合顺有限公司,supermarket
+410,"26, Lebuh Katz, 10300 George Town, Pulau Pinang, Malaysia",5.408536,100.329461,Sin Chuan Bee,supermarket
+415,"Lintang Macallum 2, George Town, 10300 George Town, Pulau Pinang, Malaysia",5.403539599999999,100.3338634,Macallum Street,supermarket
+416,"Pasar Borong Pulau Mutiara, 8-G-100T, Gat Lebuh Macallum, 10300, Penang, Malaysia",5.4062984,100.3354306,KSH Sales,supermarket
+431,"Penang St, Georgetown, 10200 George Town, Penang, Malaysia",5.4178209,100.3388029,merchant hotel,supermarket
+432,"10300, 240-264, Beach St, Georgetown, 10300 George Town, Penang, Malaysia",5.414711,100.338457,TAI HIN CHAN CO. SDN. BHD.,supermarket
+436,"NO 10, JALAN SERI PENAGA, PUSAT PERNIAGAAN SERI PENAGA,13100 13100, 13100 Penaga, Penang, Malaysia",5.5287201,100.3811762,SK FRESH SUPERMARKET SDN.BHD.,supermarket
+437,"13100 Kepala Batas, Penang, Malaysia",5.516956800000001,100.4432576,TESCO Bertam,supermarket
+438,"No. 2258, Pusat Bandar Bertam Perdana, 13200 Kepala Batas, Pulau Pinang, Malaysia",5.5169104,100.442645,Tesco Bertam Perdana,supermarket
+439,"No. 2, Tycoon Square, 30, Lorong 16, Taman Petani Jaya, 08000 Sungai Petani, Kedah, Malaysia",5.631263499999999,100.4879274,Econsave Taman Petani Jaya,supermarket
+440,"PT Lot 357, Mukim 14, SPU Lorong Teras Jaya 6 Kawasan Perniagaan Teras Jaya, Lorong Teras Jaya 7, Taman Perindustrian Teras Jaya, 13400 Butterworth, Penang, Malaysia",5.4335965,100.3885703,Econsave Raja Uda,supermarket
+441,"Jalan Permatang Pauh, Taman Arowana Emas, 13500 Permatang Pauh, Pulau Pinang, Malaysia",5.4082532,100.4135356,Jms Supermarket,supermarket
+454,"No. 101, Jalan King Street, Penang, 10200 George Town, Malaysia",5.4184199,100.3400362,Sankit Sdn. Bhd.,supermarket
+455,"Lot 368, Jalan Bakar Arang, Kawasan Perusahaan Ringan Bakar Arang, 08000 Sungai Petani, Kedah, Malaysia",5.6226759,100.475781,Tesco Sungai Petani(Selatan),supermarket
+457,"P101,, Kampung Permatang Keriang, 13110 Penaga, Penang, Malaysia",5.561732399999999,100.3696853,Mutiara ILMI,supermarket
+458,"2029, Permatang Bendahari, 13110 Penaga, Penang, Malaysia",5.5775765,100.374364,Masitah adanan enterprise,supermarket
+459,"No. 11 Lorong Bayu Aman 1, Taman Bayu Aman, 13050 Butterworth, Malaysia",5.4820499,100.383164,Eco-Shop @ Teluk Air Tawar,supermarket
+461,"Unnamed Road, Kampung Lahar Endin, 13100 Penaga, Penang, Malaysia",5.5404972,100.3711534,Pasar Nelayan Sungai Tembus,supermarket
+462,"No. 1, Lorong Teras Jaya 6, Kawasan Perniagaan Teras Jaya, 13400 Butterworth, Pulau Pinang, Malaysia",5.4335673,100.3885603,Econsave Cash & Carry Sdn Bhd,supermarket
+463,"147, Jalan Masjid 1, Pekan Baru, 08000 Sungai Petani, Kedah, Malaysia",5.640035,100.4844335,Ceria 99,supermarket
+478,"1249, Jalan Permatang Bendahari, Kampung Baru, 13100 Penaga, Pulau Pinang, Malaysia",5.5291399,100.3817404,PJB PEMBORONG PERUNCIT,supermarket
+479,"No. 2390, Tasek Gelugor, Kampung Baru, Pulau Pinang, 13300, Malaysia",5.5345469,100.382075,Gema Store Industry (M) Sdn. Bhd.,supermarket
+480,"No. 1329, Rumah Nelayan Kuala Muda, Penaga, Pulau Pinang, 13110 Seberang Prai Utara, Malaysia",5.5320599,100.3831708,Keropok Leko Pak Musa,supermarket
+486,"30, Jalan Padang Benggali, Taman Penaga Permai, 13100 Kepala Batas, Pulau Pinang, Malaysia",5.5243537,100.3783025,A One Mini Market,supermarket
+489,"No. 13A Butterworth Business City Centre, Jalan Raja Uda, 12300 Butterworth, Penang, Malaysia",5.4159907,100.381203,MiX@BUTTERWORTH,supermarket
+490,"24, Lebuh Kampung Benggali, Kampung Benggali, 12000 Butterworth, Pulau Pinang, Malaysia",5.4097729,100.3728946,Apple Mart,supermarket
+491,"7186, Jalan Kampung Baru, Taman Teratai IndahButterworth, 13400, Butterworth, Pulau Pinang, 13020, Malaysia",5.408551,100.375039,Kim Mini Market,supermarket
+492,"Lot 2446,2447&2453 Section, 4, Jalan Chain Ferry, 12700 Butterworth, Pulau Pinang, Malaysia",5.398916,100.376474,Econsave Butterworth,supermarket
+493,"6586, Jalan Raja Uda, Taman Sena, 12300 Butterworth, Pulau Pinang, Malaysia",5.4370558,100.3865941,Senyum Mart Sdn. Bhd.(Raja Uda),supermarket
+494,"Lot 2446, 2447 & 2453, Section 4 Jalan Chain Ferry, 12700 Butterworth, P. Pinang, Malaysia",5.3988836,100.3764745,Econsave Cash & Carry Sdn Bhd,supermarket
+495,"PT Lot 357, Mukim 14, SPU Lorong Teras Jaya 6, Kawasan Perniagaan Teras Jaya, Pulau Pinang, 13400 Butterworth, Malaysia",5.428294999999999,100.386958,Econsave Cash & Carry Sdn. Bhd.,supermarket
+496,"18-20, Jalan Bunga Raya Merah 2, Raja Uda Industrial Estate, 12300 Butterworth, Pulau Pinang, Malaysia",5.4339141,100.3864039,Pasar Sri Uda,supermarket
+497,"No. 925 926, Jalan Emas, Taman Meranti Indah, Taman Emas, 13000 Butterworth, Pulau Pinang, Malaysia",5.446033,100.381855,Pasaraya Minat,supermarket
+508,"11, Jalan Mewah 2, Taman Mewah, 12000 Butterworth, Pulau Pinang, Malaysia",5.3997772,100.3728023,Apple mini Market,supermarket
+509,"G-12, Block A, Rumah Pangsa Sri Bagan, Kampung Bagan Dalam, 12000 Butterworth, Pulau Pinang, Malaysia",5.3925469,100.371349,Eco Mini Market,supermarket
+514,"12, Lorong Cantek, Taman Cantek, 13400 Butterworth, Pulau Pinang, Malaysia",5.415967999999999,100.3812513,Mix米克斯,supermarket
+515,"12000 Butterworth, Penang, Malaysia",5.3944662,100.3656415,Dr Locker,supermarket
+516,"Kampung Benggali, 12200 Butterworth, Penang, Malaysia",5.4130661,100.376483,Tan Guan Bee,supermarket
+517,"No. 28, Lengkok Kapal, Kompleks Chain Ferry, 12100 Butterworth, Pulau Pinang, Malaysia",5.3992467,100.3806208,Pendairy (Malaysia) Sdn. Bhd.,supermarket
+518,"No. 78, Tingkat Kikik 4, Taman Inderawasih, 13600 Perai, Pulau Pinang, Malaysia",5.390092999999999,100.381676,Afwan Food,supermarket
+519,"Bagan Dalam, 12100 Butterworth, Penang, Malaysia",5.3930056,100.371476,Noor Islam Enterprise,supermarket
+520,"No. 7F, Jalan Pasar, Bagan Luar, 10350 Butterworth, Pulau Pinang, Malaysia",5.411645,100.370536,Wee Hong Company,supermarket
+521,"Lot 3929, Jalan Permatang Pauh, Pulau Pinang, 13400 Butterworth, Malaysia",5.414924,100.384604,Guan Aik Hup Kee Company Sdn. Bhd.,supermarket
+525,"2914,2915, Jalan Perai, Taman Inderawasih, 13600 Perai, Pulau Pinang, Malaysia",5.386604999999999,100.3847131,Mydin Wahab Enterprise Sdn Bhd,supermarket
+526,"30, Medan Kurau 2, Chai Leng Park, 13700 Perai, Pulau Pinang, Malaysia",5.385446,100.391649,Chai Leng Park market,supermarket
+528,"Kampung Kota Aur, 13110 Penaga, Penang, Malaysia",5.569461,100.3912139,Pasar Mini Mak Et,supermarket
+533,"1651, Jalan Teluk Air Tawar, Taman Air Tawar Indah, 13050 Butterworth, Pulau Pinang, Malaysia",5.491698800000001,100.3839254,Zen vista,supermarket
+534,"13100 Kepala Batas, Penang, Malaysia",5.507483,100.4299178,Pasaraya Ume,supermarket
+535,"Jalan Gelugor, Tasek Gelugor, Pulau Pinang, Malaysia",5.4841079,100.4888126,Economic Yuan Huat Supermarket,supermarket
+544,"35, Jalan Bunga Tanjung 7, Taman Tanjung Indah, 12300 Butterworth, Pulau Pinang, Malaysia",5.4284298,100.3853091,Pusat Plastik Karpeen,supermarket
+545,"No. 44 & 42, Lorong Baiduri 1, Taman Kencana, 13400 Butterworth, Pulau Pinang, Malaysia",5.438714399999999,100.3909726,Barang2 Keluarga Harian Tean Tean,supermarket
+546,"No. 291, Bagan Ajam, Pulau Pinang, 13000 Butterworth, Malaysia",5.444184,100.385249,Lam Soon Edible Oils Sdn Bhd,supermarket
+547,"Bagan Ajam, 13000 Butterworth, Penang, Malaysia",5.4436971,100.3800621,Smart Biz,supermarket
+548,"13000 Butterworth, Penang, Malaysia",5.4460788,100.3798025,KEDAI RUNCIT MASLINA,supermarket
+554,"7043, Jln Bagan Lallang, Kawasan Perindustrian Mak Mandin, 13400 Butterworth, Pulau Pinang, Malaysia",5.4207845,100.3969635,Macro Ocean Food Industry (M) Sdn. Bhd.,supermarket
+555,"Sunway Carnival Mall, No. 3068, Lot LG-01, Jalan Todak, Pusat Bandar Seberang Jaya, Pulau Pinang, 13700 Seberang Jaya, Malaysia",5.398709999999999,100.3978783,Sam's Groceria,supermarket
+557,"No 6422, Jalan Permatang Pauh, Penang, 13400 Butterworth, Malaysia",5.413864999999999,100.392436,Jasmine Food (Prai) Sdn Bhd,supermarket
+558,"110, Jalan Kurau, Chai Leng Park, 13700 Perai, Pulau Pinang, Malaysia",5.3908252,100.3900424,Yeoh Tropical Fruits Wholesale,supermarket
+559,"263, Jalan Gan Chai Leng, Chai Leng Park, 13700 Perai, Pulau Pinang, Malaysia",5.3909534,100.390006,Chai Leng Park Afternoon Market,supermarket
+560,"No. 60, Medan Kurau 1, Taman Chai Leng, 13700 Perai, Pulau Pinang, Malaysia",5.385742,100.391197,Jetradeal Sdn. Bhd.,supermarket
+561,"Seberang Jaya, 13700 Perai, Penang, Malaysia",5.3925496,100.3976838,A 2 Z,supermarket
+562,"Jalan Todak 3, Pusat, 13700 Seberang Jaya, Pulau Pinang, Malaysia",5.397295,100.3979169,Pasaraya Billion,supermarket
+563,"Jalan Todak 3, Pusat Bandar Sunway, 13700 Seberang Jaya, Pulau Pinang, Malaysia",5.3973033,100.397446,Billion Shopping Centre (Seberang Jaya),supermarket
+567,"1623, Jalan Baru, Chai Leng Park, 13700 Perai, Pulau Pinang, Malaysia",5.368961400000001,100.4146153,Cuckoo Mydin Mall Bukit Mertajam Penang (zaid),supermarket
+568,"Lorong Kelisa Emas 1, Taman Kelisa Emas, 13700 Seberang Jaya, Pulau Pinang, Malaysia",5.3889312,100.4091006,AEON BiG PENANG PRAI,supermarket
+571,"300, Jalan Heights, Lagenda Heights, 08000 Sungai Petani, Kedah, Malaysia",5.6613964,100.5018944,Tesco Lagenda Sungai Petani,supermarket
+572,"Lot 1512, Kampung Haji Wahab, Jalan Ria Jaya, 08000 Sungai Petani, Kedah, Malaysia",5.637783000000001,100.518889,Eco-Shop @ Sungai Petani,supermarket
+574,"Pasaraya Aneka Riverfront, Riverfront, Pekan Baru, 08000 Sungai Petani, Kedah, Malaysia",5.6404831,100.4777307,Aneka supermarket sungai petani,supermarket
+576,"Kampung Benggali, 13050 Butterworth, Penang, Malaysia",5.4888029,100.3824009,Siti Hajar Enterprise,supermarket
+577,"No. 628, Padang Benggali, Pulau Pinang, 13050 Telok Air Tawar Seberang Perai Utara, Malaysia",5.4828037,100.384883,Isha Warisan Enterprise,supermarket
+583,"No. 4054, Jalan Sungai Puyu, Sungai Puyu, Pulau Pinang, 13020 Butterworth, Malaysia",5.448691,100.396003,Prestasi Flour Mill Sdn. Bhd.,supermarket
+584,"69, Jalan Pekan Darat, 13800 Butterworth, Pulau Pinang, Malaysia",5.4541467,100.4015675,V MART BUTTERWORTH,supermarket
+585,"4383, Jalan Ong Yi How, 13400 Butterworth, Pulau Pinang, Malaysia",5.4311995,100.3968412,May yoen,supermarket
+588,"N0. 1 Tingkat 2, Jalan Todak 3, Pulau Pinang, 13700 Pusat Bandar Seberang Jaya, Malaysia",5.396628,100.3976835,Lukyessa Venture,supermarket
+589,"23, Jalan Bagan 23, Taman Bagan, 13400 Butterworth, Pulau Pinang, Malaysia",5.410627,100.383195,Khoon huat 坤發,supermarket
+595,"Mk 4, 2570, Jalan Permatang Pauh, Taman Arowana Emas, 13500 Permatang Pauh, Pulau Pinang, Malaysia",5.408253,100.4135359,JMS Supermart,supermarket
+596,"8, Medan Kurau 2, Taman Chai Leng, 13700 Perai, Pulau Pinang, Malaysia",5.384905499999999,100.3910484,Pasar Awam Taman Chai Leng,supermarket
+597,"Perumahan Tnb Prai, 13600 Perai, Penang, Malaysia",5.3785355,100.3919285,Wansamagu,supermarket
+598,"26, Lebuh Kurau 3 Chai Leng Park Malaysia, Taman Chai Leng, 13700 Perai, Pulau Pinang, Malaysia",5.3854866,100.3922689,Q-Mart,supermarket
+599,"No. 443, Tingkat Perusahaan 2, Pulau Pinang, 13600 Perai, Malaysia",5.364898,100.3851836,Malayan Flour Mills Bhd. (PS/4260-M),supermarket
+600,"Plot 212, Tingkat Perusahaan 4, Prai Free Trade Zone, Penang, 13500 Perai, Malaysia",5.370953999999999,100.398216,Sanda Plastics Industries Berhad,supermarket
+601,"Megamall Penang, No. 3-10, Pulau Pinang, 13600 Butterworth, Malaysia",5.3764021,100.3996416,Organic Greenfield Enterprise,supermarket
+602,"No. 28, Jalan Kikik, Taman Inderawasih, Pulau Pinang, 13600 Perai, Malaysia",5.392004,100.384808,Goodwill Distributors Sdn. Bhd.,supermarket
+603,"No. 2, Kompleks Pengumpulan Ladang, Lot 1282-A, Jalan Merbau Kudong, Sungai Dua, Pulau Pinang, 13310 Seberang Prai, Malaysia",5.3839043,100.3902089,C.M. Sal Enterprise,supermarket
+604,"57, Lebuh Kurau 1, Chai Leng Park, 13700 Perai, Pulau Pinang, Malaysia",5.3847184,100.3906787,Chop Wah Seng,supermarket
+611,"Jalan Lencongon Barat, 08000 Sungai Petani, Kedah, Malaysia",5.6160822,100.4710748,TF Value-Mart Sungai Petani,supermarket
+613,"3, Lorong Bertam Permai 1, Taman Bertam Permai, 13200 Kepala Batas, Pulau Pinang, Malaysia",5.5357686,100.4364029,Pasar Mini G.O.N,supermarket
+618,"No. 7009, Jalan Telaga Air, Seksyen 2, 12200 Butterworth, Pulau Pinang, Malaysia",5.4140261,100.3770073,Billion Shopping Centre (Butterworth),supermarket
+619,"Lot 2, 2780, Jalan Tun Hussein Onn, Lebuhraya Utara - Selatan, 13700 Seberang Jaya, Pulau Pinang, Malaysia",5.4032335,100.4082102,Jeruk Madu Chombie Kampung Pisang,supermarket
+620,"No. 1, Lorong Sembilang 16, Pulau Pinang, 13700 Seberang Jaya Seberang Perai Tengah, Malaysia",5.403047,100.402814,Harum Hijrah Enterprise,supermarket
+621,"No. 17, Jalan Chain Ferry, Pulau Pinang, 12100 Butterworth, Malaysia",5.400392,100.377231,Sin Kim Seng Sdn. Bhd.,supermarket
+624,"14, Persiaran Tuna, Kampung Belah Dua, 13700 Perai, Pulau Pinang, Malaysia",5.3913342,100.404698,TANJUNG KAWAN FROZEN FOOD SDN. BHD,supermarket
+625,"63, Jalan Chain Ferry, Taman Chai Leng, 13700 Perai, Pulau Pinang, Malaysia",5.387974,100.388924,B Jaya Industrial Hardware Sdn. Bhd.,supermarket
+626,"No 28 & 30, Jalan Sutera 3, Taman Sutera, 13700 Perai, Pulau Pinang, Malaysia",5.382833799999999,100.4072707,Bigstar Agro Trading,supermarket
+633,"13600 Perai, Penang, Malaysia",5.3584998,100.4097514,Pavi,supermarket
+637,"Pulau Pinang, Jalan Nuri 1, Taman Sentosa, 14300 Nibong Tebal, Penang, Malaysia",5.1667518,100.4757221,Yawata (N.T.) Supermarket Sdn Bhd,supermarket
+638,"NO. 2, PERSIARAN SHAH BANDAR TAMAN KERIAN, TAMBAHAN VI, 34200 Parit Buntar, Negeri Perak, Malaysia",5.117482,100.486219,Billion Shopping Centre (Parit Buntar),supermarket
+639,"123, A190, Kampung Tanah Kebun, 34200 Parit Buntar, Negeri Perak, Malaysia",5.085118599999999,100.4855152,SK Fresh & Frozen Super Mart,supermarket
+640,"49 , Jalan Wawasan 1, Taman Wawasan Jaya, Parit Buntar, 34200 Parit Buntar, Perak, Malaysia",5.1152156,100.483736,Eco-Shop @ Parit Buntar,supermarket
+641,"Lot PT 140, Jalan Perusahaan 1, Kawasan Perindustrian Simpang 5, 34200 Parit Buntar, Negeri Perak, Malaysia",5.108323,100.489365,Econsave Parit Buntar,supermarket
+642,"109,111,113, Lorong Bukit Panchor 2, Taman Bukit Panchor, 14300 Nibong Tebal, Pulau Pinang, Malaysia",5.176454,100.4883349,Pasaraya Ekonomi Soon Kee,supermarket
+643,"10, Lorong Sintar Indah 2/1, Taman Sintar Indah, 14300 Nibong Tebal, Pulau Pinang, Malaysia",5.1858751,100.4876874,JMS Supermarket,supermarket
+644,"Lot 326, Lorong Industri 7, 14300 Seberang Perai Selatan, P. Pinang, Malaysia",5.201772699999999,100.4974084,Econsave Cash & Carry Sdn Bhd,supermarket
+645,"PT661A, Jalan Perusahaan, Perak, 34200 Parit Buntar, Malaysia",5.106618999999999,100.489495,Nestle Products Sdn. Bhd.,supermarket
+646,"1, Jalan Merak Dua, Taman Merak, 14100 Simpang Ampat, Pulau Pinang, Malaysia",5.266342,100.465514,Gemilang Mini Market,supermarket
+647,"5, Lorong Seri Murai 7, 14100 Simpang Ampat, Pulau Pinang, Malaysia",5.2729314,100.4587013,JMS Super Mart Tambun,supermarket
+648,"94A-122, Jalan Tasek Ss2, Bandar Tasek Mutiara, 14120 Simpang Ampat, Pulau Pinang, Malaysia",5.284464,100.4912219,Supermarket 800 Zonkhas,supermarket
+649,"Persiaran Mutiara 4, Bandar Tasek Mutiara, 14120 Simpang Ampat, Pulau Pinang, Malaysia",5.277082,100.4908822,C Mart Premium,supermarket
+650,"1, Lorong Puteri Gunung 38, Taman Puteri Gunung, 14120 Simpang Ampat, Pulau Pinang, Malaysia",5.2839469,100.5024129,Srisha Cash & Carry,supermarket
+651,"LG57, LG58 & G58, The Summit Bukit Mertajam No. 566, Jalan Arumugam Pillai, 14000 Bukit Mertajam, P. Pinang, Malaysia",5.366297599999999,100.461962,Econsave Cash & Carry Sdn Bhd,supermarket
+652,"No. 94, 122, Jalan Tasek Ss2, Bandar Tasek Mutiara, 14120 Simpang Ampat, Penang, Malaysia",5.284463000000001,100.490664,PASARAYA 800 ZONKHAS SDN BHD (Bandar Tasek Mutiara),supermarket
+656,"No. 12, Jalan Perindustrian Nibong Tebal 2, Taman Perindustrian Nibong Tebal, 14300 Nibong Tebal, Pulau Pinang, Malaysia",5.1804695,100.4819183,Shang Rise Food Enterprise Sdn.Bhd.,supermarket
+657,"2, Jalan Muhibbah, Pusat Bandar Baru, 34300 Bagan Serai, Negeri Perak, Malaysia",5.012046,100.535561,PASARAYA KU ( BAGAN SERAI ),supermarket
+658,"123, 121, Jalan Pasar, Kampung Alor Senggut, 34300 Bagan Serai, Perak, Malaysia",5.0098809,100.5344792,Sk Fresh Super Mart (Bagan Serai) Sdn Bhd,supermarket
+659,"2, Jalan Pengkalan, Taman Pekan Baru, 08000 Sungai Petani, Kedah, Malaysia",5.6395686,100.4820537,Billion Supermarket,supermarket
+660,"09400 Padang Serai, Kedah, Malaysia",5.512676799999999,100.5337238,TT FreshMart,supermarket
+661,"732, 13200, Jalan Perak, 13100 Kepala Batas, Penang, Malaysia",5.516553099999999,100.4254969,Kedai Santan KS,supermarket
+662,"1106, Jln Padang Kelab, 13200 Kepala Batas, Pulau Pinang, Malaysia",5.5164846,100.4266212,Uncle Loo Pork Shop,supermarket
+663,"Pasar Awam Kepala Batas, Kampung Permatang Sintok, 13100 Penaga, Pulau Pinang, Malaysia",5.5159253,100.4164948,Market Kepala Batas,supermarket
+665,"Taman Perindustrian Teras Jaya, 13400 Butterworth, Penang, Malaysia",5.433411500000001,100.3880066,Econsave Lorong Teras Jaya 3,supermarket
+668,"Jalan Permatang Pauh, 13500 Permatang Pauh, Pulau Pinang, Malaysia",5.3912415,100.4177397,Kedai Runcit 24 Jam,supermarket
+671,"6846, Jalan Besar Bukit Tengah, Taman Limau Manis, 14000 Bukit Mertajam, Pulau Pinang, Malaysia",5.35095,100.4340139,JMS Supermart Bukit Tengah,supermarket
+672,"43, Jln Icon City, Bukit Tengah, 14000 Bukit Mertajam, Pulau Pinang, Malaysia",5.3435683,100.4336616,Mix米克斯大山脚店,supermarket
+674,"1001-1103, Jalan Baru, Taman Bunga Raya, 14000 Bukit Mertajam, Pulau Pinang, Malaysia",5.3669449,100.419951,Jmart,supermarket
+675,"17, Lorong Perda Utama 13, Bandar Baru Perda, 14000 Bukit Mertajam, Pulau Pinang, Malaysia",5.3671289,100.4314459,Ikhwan Mart Perda,supermarket
+683,"16, 2, Jalan Cempaka 3, Taman Mutiara Cempaka, 14100 Simpang Ampat, Penang, Malaysia",5.2714177,100.4294811,pembekal ayam segar yahaya,supermarket
+686,"Mezzanine Floor, No. 39, 41,(Ground and, Persiaran Seri Impian, Pusat Perniagaan Mahkota Impian, 14000 Bukit Mertajam, Pulau Pinang, Malaysia",5.319394,100.4765994,Eco-Shop @ Bukit Mertajam,supermarket
+687,"Kampung Matang Gerdu, 34300 Bagan Serai, Perak, Malaysia",5.0143948,100.5303637,Pasaraya Sakan,supermarket
+691,"15, Jln Paya Keladi 2, Taman Paya Keladi, 13200 Kepala Batas, Pulau Pinang, Malaysia",5.5328743,100.4308456,My Cake N Ingredients House,supermarket
+693,"15, Lorong Bertam Ria 2, Taman Bertam Ria, 13200 Kepala Batas, Pulau Pinang, Malaysia",5.5097664,100.4355117,Eco-Shop @ Kepala Batas,supermarket
+697,"13200 Kepala Batas, Penang, Malaysia",5.5215935,100.43067,RizuNads Creative Production,supermarket
+699,"8, Jalan Merbau Indah, Taman Merbau Indah, 13800 Butterworth, Pulau Pinang, Malaysia",5.448934,100.4327351,RIHAZ MINI MART,supermarket
+700,"No. 8, 1st Jalan Merbau Indah, Taman Merbau Indah, Pulau Pinang, 13800 Sungai Dua,Butterworth, Malaysia",5.448691,100.43527,Agro Wbionest Sdn. Bhd.,supermarket
+701,"1230, P205, 13800 Tasek Gelugor, Pulau Pinang, Malaysia",5.4554108,100.441375,Zawani Enterprise,supermarket
+702,"no 28 tingkat, 1, Lorong Sungai Dua Utama 1, Taman Sungai Dua Utama, 13800 Butterworth, Penang, Malaysia",5.4480794,100.4239872,Hemico Distribution Centre (HDC SUNGAI DUA),supermarket
+705,"NO. 18, Lorong Arowana 2, Kawasan Perniagaan Arowana, 13500 Permatang Pauh, Pulau Pinang, Malaysia",5.409881400000001,100.4092638,AROWANA MINI MART,supermarket
+706,"Lot 1232, Permatang Janggus, Pulau Pinang, 14000 Permatang Pauh Seberang Perai Tengah, Malaysia",5.405016,100.4141311,Ybo Trading,supermarket
+707,"1028, P194, Kampung Tanjung Putus, 13500 Permatang Pauh, Pulau Pinang, Malaysia",5.4253885,100.4199448,Kedai Runcit Anis Nilam Enterprise,supermarket
+711,"No.1, Lorong Perda Utama 7, Bandar Perda, 14000 Bukit Mertajam, Pulau Pinang, Malaysia",5.3678609,100.4293259,IKA HOUSEWARE SUPER MART SDN. BHD.,supermarket
+723,"Lorong Kota Permai 13, Kota Permai 1, 14000 Bukit Mertajam, Pulau Pinang, Malaysia",5.3418719,100.459383,Billion,supermarket
+729,"No.2875, Jalan Rozhan, Pusat Perniagaan Rozhan, 14000 Bukit Mertajam, Pulau Pinang, Malaysia",5.331155499999999,100.479924,Wonderful Super Mart Shop,supermarket
+738,"10, Lorong Sintar Indah 2/1, Taman Sintar Indah, 14300 Nibong Tebal, Pulau Pinang, Malaysia",5.1859486,100.487685,Big Deal Supermarket,supermarket
+756,"108, Lorong Bukit Panchor 1, Taman Bukit Panchor, 14300 Nibong Tebal, Pulau Pinang, Malaysia",5.176753,100.4881389,One Zero Eight Mini Market,supermarket
+758,"Jln Paya Keladi, 13200 Kepala Batas, Penang, Malaysia",5.5339383,100.4317022,Paksu Plate Number,supermarket
+759,"No. 733, Permatang Tinggi, Pulau Pinang, 13200, Malaysia",5.541717100000001,100.4336856,Ghazar Enterprise,supermarket
+760,"No. G2, Jalan Kompleks Perniagaan Dato Kailan, Pulau Pinang, 13200 Kepala Batas Seberang Perai Utara, Malaysia",5.521015999999999,100.4368169,Ablfabawi Enterprise,supermarket
+761,"57,59 GF Pusat Perniagaan, Jalan Pokok Sena, 13220 Kepala Batas, Penang, Malaysia",5.4900291,100.4571229,Pasar Raya Borong Pokok Sena,supermarket
+766,"23, Lorong Sintuk 4, Taman Permatang Sintuk, 13100 Penaga, Pulau Pinang, Malaysia",5.5128053,100.4038546,Jeruk Pak Ali Permatang Sintok,supermarket
+770,"116, Lorong Murni 23, Taman Seri Murni, 13800 Butterworth, Pulau Pinang, Malaysia",5.4412296,100.4346125,Kedai Runcit Lima Maju Enterprise,supermarket
+771,"No. 5543, Merbau Kudung, Pulau Pinang, 13800, Malaysia",5.451564500000001,100.4361439,Limpahan Kurnia Enterprise,supermarket
+772,"2 & 4, Jalan Murni 1, Taman Desa Murni, 13800 Butterworth, Pulau Pinang, Malaysia",5.438972,100.430267,Cahaya Murni,supermarket
+773,"No. 12-GF, Lorong Murni 9, Taman Desa Murni, Pulau Pinang ‎, 13800 Butterworth, Malaysia",5.437905,100.430042,Khasiat Khasturi Industri Sdn. Bhd.,supermarket
+776,"6966, Jalan Permatang Pauh, Kampung Kota, 13400 Butterworth, Pulau Pinang, Malaysia",5.4193539,100.4399313,Teluq Masin Nana,supermarket
+780,"P12, 14000 Bukit Mertajam, Penang, Malaysia",5.364611,100.433398,Perniagaan Shila Maju Berkat,supermarket
+781,"No. 96, Jalan Perda Utama, Bandar Perda, Pulau Pinang, 14000 Bukit Mertajam, Malaysia",5.370411,100.435668,Prestasi Flour Mill (M) Sdn. Bhd.,supermarket
+782,"No. 30G, Lorong Perda Utama 7, Bandar Baru Perda, 14000 Bukit Mertajam, Pulau Pinang, Malaysia",5.367259,100.429281,Nutrimiks Resources,supermarket
+787,"No. 1339, Jalan Bukit Tengah, Taman Indah, Penang, 14000 Bukit Mertajam, Malaysia",5.34546,100.435261,Uee Global Trade Sdn. Bhd.,supermarket
+795,"No. 14, Lorong IKS Simpang Ampat A, Taman IKS Perda, Pulau Pinang, 14100 Simpang Ampat, S.P.S, Malaysia",5.337079999999999,100.434998,Sejahtera Abadi Industry,supermarket
+796,"No. 1647, Pulau Pinang, 14000 Bukit Minyak Seberang Perai Tengah, Malaysia",5.3044444,100.4394444,Dnm Utama Enterprise,supermarket
+801,"Jln Lembah Impian 5, Lembah Impiana, 09000 Kulim, Kedah, Malaysia",5.3633694,100.5262535,Fresh 365 Supermarket,supermarket
+807,"17, Jalan Perniagaan 3, Desa Cahaya, 14000 Bukit Mertajam, Pulau Pinang, Malaysia",5.3348463,100.480703,Smart ninety nine Sdn bhd,supermarket
+808,"Lorong Suria 1, Taman Suria, 14300 Nibong Tebal, Pulau Pinang, Malaysia",5.1426471,100.4689997,B & H Frozen Food Enterprise,supermarket
+809,"No. 1-2, Jalan Bestari, Pusat Bandar Fasa 2, 34200 Parit Buntar, Negeri Perak, Malaysia",5.114229,100.486037,Kazuto Frozen,supermarket
+810,"Lot. 902, Jalan Bahru, Perak, 34200 Parit Buntar, Malaysia",5.063842999999999,100.489526,Lian Seng Hung Rice Mill Sdn. Bhd,supermarket
+811,"24, Jalan Nafiri, Kawasan Perindustrian Nafiri, 14110 Simpang Ampat, Pulau Pinang, Malaysia",5.2377688,100.4848893,Omega Frozen Seafood Sdn Bhd,supermarket
+812,"106, 136, Serdang, 09800 Serdang, Kedah, Malaysia",5.204303299999999,100.6108494,Sk Fresh Market,supermarket
+813,"C69, Jalan Permatang Gedong, Taman Sejati Indah, Sungai Petani, 08000, Sungai Petani, Kedah, 08000, Malaysia",5.614752999999999,100.482953,Pasar Mini Sejati Indah,supermarket
+817,"No. 1, Jalan Berkat, Taman Berkat, 09400 Padang Serai, Kedah, Malaysia",5.514671,100.552991,Pasaraya Jaya Gading Sdn. Bhd.,supermarket
+820,"Jl. Permatang Janggus, Kampung Bagan Serai, 13500 Permatang Pauh, Pulau Pinang, Malaysia",5.4016832,100.4145313,MOZAROS ENTERPRISE,supermarket
+821,"No. 6 & 12, Lorong Janggus 2, Taman Makok, 14000 Bukit Mertajam, Pulau Pinang, Malaysia",5.36286,100.447046,Blue Star Plastic & Printing Co.,supermarket
+822,"No. 15, Lorong Tembikai 1, Taman Sri Rambai, Pulau Pinang, 14000 Bukit Mertajam, Malaysia",5.358469299999999,100.448173,Chai Hup Heng Trading,supermarket
+823,"Lot 2056,2057 Mk10, Lorong Tembikai 1, 14000 Bukit Mertajam, Penang, Malaysia",5.351653499999999,100.4420786,KF Mini Mart 企发百货超市,supermarket
+824,"Taman Belimbing, 14000 Bukit Mertajam, Penang, Malaysia",5.3484878,100.4428506,May aceh,supermarket
+825,"Jalan Pasar, 14000 Bukit Mertajam, Pulau Pinang, Malaysia",5.3640408,100.460672,Pekan Bukit Mertajam Wet Market,supermarket
+827,"58, Tingkat Binjai 12, Taman Sri Rambai, 14000 Bukit Mertajam, Pulau Pinang, Malaysia",5.346418,100.446134,南美園豬肉鋪,supermarket
+830,"No. 2875, Jalan Rozhan, Pusat Perniagaan Alma, 14000 Bukit Mertajam, Pulau Pinang, Malaysia",5.331175,100.4799331,Wonderful Supermarket (Pg) Sdn. Bhd.,supermarket
+832,"14100 Simpang Ampat, Penang, Malaysia",5.287736799999999,100.4436197,Tian Seng Hang,supermarket
+836,"3362 & 3363, Jalan Nuri, Taman Sentosa, 14300 Nibong Tebal, Pulau Pinang, Malaysia",5.167756,100.4756709,Subham,supermarket
+837,"Jalan Permai, Kampung Sanglang, 14300 Nibong Tebal, Pulau Pinang, Malaysia",5.1666214,100.4826178,CHOP KIM SENG,supermarket
+838,"Jalan Bandar Puteri Jaya 1/1, Bandar Puteri Jaya, 08000 Sungai Petani, Kedah, Malaysia",5.6147809,100.5338693,Econo Jaya Mini Market ( Bandar Puteri Jaya ),supermarket
+839,"F292D Kampung Masjid, Tikam Batu, 08600 Sungai Petani, Malaysia",5.5749613,100.4363329,Big Tas' Tea Store,supermarket
+840,"14-G, Jalan Dagangan 10, Pusat Bandar Bertam Perdana, 13200 Kepala Batas, Pulau Pinang, Malaysia",5.517099,100.4513568,Al-Lufiya Bazaar,supermarket
+841,"Jalan Pokok Sena, Kampung Banggul, 13220 Kepala Batas, Pulau Pinang, Malaysia",5.4845451,100.4532753,Pro Shoppe Minimart,supermarket
+842,"13220 Kepala Batas, Penang, Malaysia",5.486149,100.4572926,Pasar Mini Tahap Teguh Ent,supermarket
+843,"2747, Jalan Arumugam Pillai, Kampung Banggul, 13220 Kepala Batas, Pulau Pinang, Malaysia",5.4823905,100.4575564,Pokok Sena Yama,supermarket
+854,"No. 537, Jalan Sungai Rambai, 14000 Bukit Mertajam, Pulau Pinang, Malaysia",5.364007,100.454632,Tan Teik Hock,supermarket
+865,"Taman Setia Budi, 08600 Sungai Petani, Kedah, Malaysia",5.5787821,100.4378338,166 Palace,supermarket
+866,"Jln, Tikam Batu, 08600 Tikam Batu, Kedah, Malaysia",5.5871886,100.4419183,Ladang Nanas Hj Mansor,supermarket
+867,"A163, Jalan Mutiara 1, Taman Mutiara, 08000 Sungai Petani, Kedah, Malaysia",5.64197,100.506445,7-Eleven Malaysia,supermarket
+871,"497, Jalan Arumugam Pillai, 14400 Kubang Semang, Pulau Pinang, Malaysia",5.4261515,100.4678273,STAY HEALTHY SHOP,supermarket
+874,"Jalan Penanti 1, Taman Penanti, 14400 Kubang Semang, Pulau Pinang, Malaysia",5.406167,100.4640131,Pasaraya Ekonomi Suria Sdn Bhd,supermarket
+875,"2115, Jalan Gasing, Taman Berapit, 14000 Bukit Mertajam, Pulau Pinang, Malaysia",5.384237,100.475016,Pasaraya Berapit Mini Market (武拉必超級市場),supermarket
+876,"22, Jalan Penanti 1, Taman Penanti, 14400 Kubang Semang, Pulau Pinang, Malaysia",5.405747,100.4639101,PTBB WHOLESALE TRADING,supermarket
+877,"11, Lorong Penanti Indah 3, Taman Penanti Indah, 14400 Kubang Semang, Pulau Pinang, Malaysia",5.4088427,100.4633443,Tommys two holding sdn bhd,supermarket
+878,"600, Jalan Penanti, kubang semang, 14000 Bukit Mertajam, Penang, Malaysia",5.403879,100.464686,ZONKHAS 800 (Cawangan Kubang Semang),supermarket
+882,"No. 32, Jalan Bunga Raya, 14000 Seberang Perai, Pulau Pinang, Malaysia",5.364075,100.459968,Syarikat Eng Seng (Siang Kee),supermarket
+883,"14000 Bukit Mertajam, Penang, Malaysia",5.365289199999999,100.4591131,Kong Chan,supermarket
+884,"10, Lorong Limau Manis 1, Taman Limau Manis, 14000 Bukit Mertajam, Pulau Pinang, Malaysia",5.351947099999999,100.4345432,终极斗罗,supermarket
+885,"18, Tingkat Tembikai 2, Taman Mutiara, 14000 Bukit Mertajam, Pulau Pinang, Malaysia",5.3521774,100.4451697,hiap lee hang 、bm,supermarket
+886,"1372, Jalan Tan Sai Gin, Taman Tan Sai Gin, 14000 Bukit Mertajam, Pulau Pinang, Malaysia",5.3659539,100.4563709,Lean Joo,supermarket
+888,"Unnamed Road, Kampung Alma, 14000 Bukit Mertajam, Penang, Malaysia",5.3356113,100.4656124,future econsave alma,supermarket
+890,"Jalan Idaman 3, Taman Idaman, 14100 Simpang Ampat, Pulau Pinang, Malaysia",5.2739213,100.4697366,ARONLINEMARTS,supermarket
+892,"5400, 1, Kawasan Perindustrian Valdor, 14110 Simpang Ampat, Pulau Pinang, Malaysia",5.243903899999999,100.4818066,Lee Lee Supermarket Sg. Bakap,supermarket
+893,"Kulim Landmark Central Shopping Centre,, Lot 1-1A-1,, No.1 Jalan KLC Satu (1),, 09000 Kulim, Kedah, Malaysia",5.385778,100.546529,Giant Superstore Kulim,supermarket
+897,"3084-3086, Jalan Mahsuri 9J, Taman Mahsuri, 09400 Padang Serai, Kedah, Malaysia",5.50483,100.5485279,Ceria 99,supermarket
+907,"Jalan Lembah Permai, 14000 Bukit Mertajam, Pulau Pinang, Malaysia",5.348552499999999,100.4571823,Bwy holding sdn. bhd,supermarket
+910,"No. 1395, Jalan Pauh Kijang, Kampung Kijang, Pulau Pinang, 14000 Bukit Mertajam, Malaysia",5.3289769,100.4737888,SKT Soon Trading Sdn. Bhd.,supermarket
+911,"B-G, 9, Lorong Seri Impian 3, Taman Seri Impian, 14000 Bukit Mertajam, Penang, Malaysia",5.3184854,100.4805703,FOURTY TWO M TWENTY SIX,supermarket
+912,"1-G, Medan Seri Impian 2, Pusat Perniagaan Seri Impian, 14000 Bukit Mertajam, Pulau Pinang, Malaysia",5.3178325,100.4760988,绿叶爱生活健康购物站(ALMA GREENLEAF),supermarket
+914,"No. 18, Jalan Kawasari 2, Taman Kawasari, Pulau Pinang, 14100 Simpang Ampat, Malaysia",5.281704,100.473648,Amk Enterprise,supermarket
+915,"No. 7, Jalan Pala 4 Simpang Ampat, Pulau Pinang, 14100 Bukit Mertajam, Malaysia",5.303852399999999,100.4749899,S Foods Industries,supermarket
+921,"No. 537-h, Jalan Baru, Mukim D, Pulau Pinang, 11000 Balik PulauBarat Daya, Malaysia",5.263234100000001,100.4846227,Le Agro Tropikal Enterprise,supermarket
+927,"P162, Kampung Cangkat, 14200 Sungai Jawi, Pulau Pinang, Malaysia",5.202834800000001,100.4722191,TCL Mini Market,supermarket
+932,"A22, Kampung Permatang Keling, 34200 Parit Buntar, Negeri Perak, Malaysia",5.129384000000001,100.467294,Kedai Runcit Mutiara,supermarket
+933,"Jalan Bagan Serai - Parit Buntar, Kampung Kedah, 34200 Parit Buntar, Negeri Perak, Malaysia",5.129105,100.472732,ERFA MART,supermarket
+934,"F158, Kampung Kedah, 34200 Parit Buntar, Perak, Malaysia",5.127232999999999,100.473739,Qira fresh Ent,supermarket
+935,"No.14, Jalan Muhibbah, Pusat Bandar34300 Bagan Serai, Negeri Perak, Malaysia",5.012285299999999,100.5358024,Pck Fresh Mart Sdn Bhd (Cawangan Bagan Serai),supermarket
+936,"54, Lorong 2, Taman Ria, 08000 Sungai Petani, Kedah, Malaysia",5.6616539,100.503918,Ceria Hari-Hari Ent,supermarket
+937,"No. 5158, Kampung Lahar Tiang, Pulau Pinang, 13200, Malaysia",5.5560296,100.4832171,Perusahaan Ns,supermarket
+938,"852-856, Taman Makmur, Sungai Seluang, 09600 Lunas, Kedah, Malaysia",5.4407586,100.5458293,Marco Polo Cash & Carry Sdn Bhd,supermarket
+940,"5-9, Jalan Waja Indah, Taman Waja Indah, 09000 Kulim, Kedah, Malaysia",5.420165,100.566976,Supermarket Zen Vista,supermarket
+945,"No.342A, Tingkat Atas, Taman Seraya Indah, 09000 Kulim, Kedah, Malaysia",5.3841149,100.5449361,TF Value-Mart Kulim,supermarket
+946,"No.1787, Jalan Berapit, Pulau Pinang, 14000 Bukit Mertajam, Malaysia",5.385878,100.481024,Syarikat Perniagaan Thye Lean Sdn Bhd,supermarket
+948,"No. 30, Lorong Sepakat 3, Taman Bandaraya, 14000 Bukit Mertajam, Pulau Pinang, Malaysia",5.349718,100.478229,Investco Enterprise,supermarket
+950,"G, 10, Cangkat Damai, Taman Permata, 14000 Bukit Mertajam, Pulau Pinang, Malaysia",5.339798099999999,100.4788954,AL RABAAH MINI MARKET,supermarket
+951,"Taman Rozhan, 14000 Bukit Mertajam, Penang, Malaysia",5.3311037,100.4800042,Pasaraya Wonderful Alma,supermarket
+952,"14000 Bukit Mertajam, Penang, Malaysia",5.3301399,100.4784525,島上漂流書站 Island Crossing Book,supermarket
+955,"14000 Simpang Ampat, Penang, Malaysia",5.3195883,100.47653,2CO Eco Shop,supermarket
+956,"23, Medan Seri Impian 2, Pusat Perniagaan Seri Impian, 14000 Bukit Mertajam, Pulau Pinang, Malaysia",5.3194637,100.4766179,Eco-Shop (RM2.10),supermarket
+957,"No. 73, Lorong Tasek Mutiara 1/ss1, Taman tasek Mutiara, Pulau Pinang, 14120 Simpang Ampat, Malaysia",5.283774,100.480473,Pasar Mini Hong Siang,supermarket
+973,"No. 2058, Jalan Besar, Pulau Pinang, 14300 Nibong Tebal, Seberang Perai Selatan, Malaysia",5.2219307,100.4971597,Perniagaan Fajar Menyinsing,supermarket
+981,"No. 1674, Tanjung Berembang, Pulau Pinang, 14310 Nibong Tebal Seberang Perai Selatan, Malaysia",5.167945,100.4783231,Suri Sz Enterprise,supermarket
+983,"2370, Lorong Seri Emas 1, Taman Seri Emas, 14300 Parit Buntar, Pulau Pinang, Malaysia",5.1400231,100.4797212,Pasaraya Ekonomi Boon Wah,supermarket
+985,"Jalan Ayam Didik 3, Kawasan Perindustrian Ria Jaya, Kedah, 08000 Sungai Petani, Malaysia",5.654508,100.515706,Nestle Products Sdn. Bhd.,supermarket
+987,"Jalan Serai Setia 3, 09400 Padang Serai, Kedah, Malaysia",5.515624,100.538391,CozMart Pdg Serai,supermarket
+988,"Jalan Sungai Seluang, Taman Bayam Indah, 09600 Lunas, Kedah, Malaysia",5.416793,100.549415,Pasaraya Shaan Sdn Bhd,supermarket
+991,"Taman Sepadu, 13100 Tasek Gelugor, Penang, Malaysia",5.482114,100.4945209,Sadah Enterprise,supermarket
+992,"Kompleks Perniagaan Permatang Maggis, Pulau Pinang, 13200 Permatang Manggis Seberang Perai Utara, Malaysia",5.46754,100.49434,Ezzora Enterprise,supermarket
+995,"96-101, Lorong Semarak 4, Taman Semarak, 09000 Kulim, Kedah, Malaysia",5.378248399999999,100.5401587,Ayam LTC mart,supermarket
+999,"4443, P119, 13400 Butterworth, Pulau Pinang, Malaysia",5.4105567,100.486111,Nakhoda - Islamic World,supermarket
+1000,"No. 1811, Taman Semarak, Mukim Keladi, Kedah, 09000 Kulim, Kedah, Malaysia",5.379739799999999,100.5430531,Eco-Shop @ Kulim,supermarket
+1002,"Taman Mutiara Indah, 14000 Bukit Mertajam, Penang, Malaysia",5.380531599999999,100.4744849,Berapit Pasar Pagi,supermarket
+1003,"108, Jalan Machang Bubok 1, Taman Machang Bubok, 14000 Bukit Mertajam, Pulau Pinang, Malaysia",5.3379504,100.503567,Chin Wongly Enterprise金旺利贸易,supermarket
+1005,"4162 & 4163, Jalan Seladang satu, Tmn Selamat Alma, Penang, 14000 Bukit Mertajam, Malaysia",5.328202999999999,100.484422,Tang Soon Lai Trading,supermarket
+1006,"2, Jalan Impian Ria 2, Taman Impian Ria, 14100 Bukit Mertajam, Pulau Pinang, Malaysia",5.3126574,100.4797194,KRAKEN STORAGE,supermarket
+1016,"30-48, Lorong Industri 9, Taman Industri Bukit Panchor, 14300 Nibong Tebal, Pulau Pinang, Malaysia",5.1722692,100.4909483,Pembekal Kelapa,supermarket
+1017,"12,14, Bukit Panchor, Taman Bersatu, 14300 Nibong Tebal, Pulau Pinang, Malaysia",5.168639,100.4884319,Pasaraya Nsr,supermarket
+1020,"Jalan Persiaran Shahbandar, 34200 Parit Buntar, Negeri Perak, Malaysia",5.118049000000001,100.4866739,Ten Ten,supermarket
+1022,"Dewan Makan Sekolah Menengah Panglima Bukit Gantang, Perak, 34200 Parit Buntar, Malaysia",5.10537,100.485392,Kelimas Unggul Enterprise,supermarket
+1024,"A 104, Lorong Ria Indah 12, Taman Ria Indah, 08000 Sungai Petani, Kedah, Malaysia",5.6538509,100.5077029,7 Eleven,supermarket
+1028,"Lot PT 47155, Jalan Kuala Ketil, Bandar Puteri Jaya, 08000 Sungai Petani, Kedah, Malaysia",5.6219169,100.5400513,Econsave Bandar Puteri Jaya,supermarket
+1030,"Jalan Kampung Selamat, Taman Seri Desa, 13300 Tasek Gelugor, Penang, Malaysia",5.4842059,100.5040232,Am Tebu,supermarket
+1031,"No. 10759, Nyior Sebatang, Pulau Pinang, 13300 Tasek Gelugor Seberang Perai Utara, Malaysia",5.493628999999999,100.5048889,Perniagaan Tnz,supermarket
+1033,"Jalan Permatang Manggis, 13310 Tasek Gelugor, Pulau Pinang, Malaysia",5.4742751,100.495679,Qayyum Fresh Mart,supermarket
+1034,"17, Jalan Lembah Impiana 1, Taman Angsana, 09000 Kulim, Kedah, Malaysia",5.3702914,100.5324334,Pasar Awam Taman Angsana,supermarket
+1039,"1, Jalan Tunku Abidah, Kulim, 04000 Kulim, Kedah, Malaysia",5.368684,100.554811,Ekonomi Island Supermarket,supermarket
+1040,"No. 3522, Jalan Sungai Lembu, Kampung Mengkuang, Pulau Pinang, 14000 Bukit Mertajam, Malaysia",5.376252,100.520218,T.F. Food Industries Sdn. Bhd.,supermarket
+1042,"1756, Eng Lee Estate, Permatang Tinggi, Bukit Mertajam, 14000, Bukit Mertajam, Pulau Pinang, Malaysia",5.3496416,100.4949474,Hock Duan Seng,supermarket
+1043,"1629, Jalan Kulim, Taman Machang Bubok, 14020 Bukit Mertajam, Pulau Pinang, Malaysia",5.341711,100.504537,Pasaraya Wonderful,supermarket
+1044,"Taman Machang Bubok, 14000 Bukit Mertajam, Penang, Malaysia",5.341621,100.5047348,Pasaraya Wonderful,supermarket
+1049,"Bandar Tasek Mutiara, 14120 Simpang Ampat, Penang, Malaysia",5.279232,100.4971401,Neptune Gold Eye Enterprise,supermarket
+1058,"No: 122, Jalan Menteri, Kampung Permatang Tok Mamat, 34200 Parit Buntar, Negeri Perak, Malaysia",5.130227,100.491854,Rosri Enterprise,supermarket
+1059,"123 A, Jalan Bandar Puteri Jaya 1/2, Bandar Puteri Jaya, 08000 Sungai Petani, Kedah, Malaysia",5.612496999999999,100.5322932,J Mart,supermarket
+1060,"14, Jalan Bakar Arang, Bakar Arang, 08000 Sungai Petani, Kedah, Malaysia",5.6243424,100.4781072,J Mart,supermarket
+1064,"37 136, Padang Serai, 09400 Padang Serai, Kedah, Malaysia",5.5114557,100.5591726,Pasaraya Selesa,supermarket
+1065,"Taman Bayam Indah, 09600 Lunas, Kedah, Malaysia",5.4168011,100.5495197,PASARAYA SHAAN SDN. BHD.,supermarket
+1068,"No. 7142, Kampung Tun Sardon, Pulau Pinang, 14400 Kubang Semang Seberang Perai Tengah, Malaysia",5.4314908,100.5141441,Fitrah Etiqa Enterprise,supermarket
+1070,"No. 279, Mk 20, Kuala Mengkuang, Pulau Pinang, 14000 Bukit Mertajam, Malaysia",5.401311,100.500033,Jorna Wala Enterprise,supermarket
+1071,"139 - 143, Jalan Putra B, Pusat Perniagaan Putra, 09000 Kulim, Kedah, Malaysia",5.391399,100.5644729,Carnival Cash & Carry,supermarket
+1072,"42, Jalan Raya, Kulim, 09000 Kulim, Kedah, Malaysia",5.3680184,100.5550527,Kulim POINT 2,supermarket
+1073,"992, Jalan Besar, Machang Bubok, 14000 Bukit Mertajam, Pulau Pinang, Malaysia",5.3357988,100.5087152,Pasar Machang Bubok,supermarket
+1075,"161, Jalan Tasek, Kampung Jawi Sempit, 14120 Simpang Ampat, Pulau Pinang, Malaysia",5.2846217,100.5104251,Shamsuddin Mart,supermarket
+1080,"13200, Penang, Malaysia",5.5523007,100.5041491,Gerai Pejabat Daerah SPU Pinang Tunggal,supermarket
+1081,"Kampung Kelang Makau, 08000 Sungai Petani, Kedah, Malaysia",5.5834334,100.4767899,HBH Bakti Enterprise,supermarket
+1082,"09400, Kedah, Malaysia",5.5590034,100.5297833,WALYMART,supermarket
+1092,"26, Jalan Permatang Gedong, Taman Sejati Indah, 08000 Sungai Petani, Kedah, Malaysia",5.6123647,100.482709,Happy Home Superstore,supermarket
+1094,"2745, Jalan Kampung Baru, Kampung Selamat, 13300 Tasek Gelugor, Pulau Pinang, Malaysia",5.5049483,100.5212482,KEDAI RUNCIT WENG HUAT,supermarket
+1122,"No. 1336, Mk16, Kampung Tasek Junjong, Pulau Pinang, 14120 Simpang Ampat, Malaysia",5.2964693,100.5267273,Kaseh Kurnia Enterprise,supermarket
+1123,"Malaysia, Penang, Sungai Jawi, Unnamed Road邮政编码: 14200",5.225493000000001,100.502564,3dkitpuzzle,supermarket
+1124,"No. 1, Sungai Bakap, Jalan Seruling Emas 3, Taman Seruling Emas, 14200, Pulau Pinang, Malaysia",5.2121498,100.5058661,Pasaraya Ekonomi Kafu,supermarket
+1125,"295, Jalan Besar, Sungai Bakap, 14200 Sungai Jawi, Pulau Pinang, Malaysia",5.2222015,100.4969827,LEE HEN SG ENTERPRISE,supermarket
+1127,"Bandar Amanjaya, 08000 Sungai Petani, Kedah, Malaysia",5.6742164,100.5099007,C-Mart Premium @ Amanjaya Mall,supermarket
+1129,"Kompleks Pengumpulan Ladang Fama, No. 1, Kampung Selamat, Pulau Pinang, 13300, Malaysia",5.492034800000001,100.5211744,Mama Secret Enterprise,supermarket
+1133,"Tapak Penjaja MPK No 3, Jalan Serdang & Jalan Kelang Lama 09000 Kulim9000 Kulim, Kedah email : ZRImpian@gmail, com, Kampung Tunku Putra, 09000 Kulim, Kedah, Malaysia",5.3891038,100.5658274,ZR Impian Maju Enterprise,supermarket
+1137,"305, Jalan Camar, Taman Camar, 09000 Kulim, Kedah, Malaysia",5.373344899999999,100.5656681,Perabot terpakai Kulim,supermarket
+1140,"Penang, Malaysia",5.2965007,100.5266076,Kedai Runcit Hassan,supermarket
+1143,"Mydin, 08000 Sungai Petani, Kedah, Malaysia",5.632598199999999,100.5379121,"Mydin Sungai Petani, Kedah.",supermarket
+1150,"No. 643, Lorong Kemuning 12, Taman Kemuning, 09000 Kulim, Kedah, Malaysia",5.374408,100.539108,NSG Group,supermarket
+1153,"1121, Jalan Belibis, Taman Tunku Putra, 09000 Kulim, Kedah, Malaysia",5.3732207,100.5580088,Warisan Halalan Toyyiba Kulim,supermarket
+1154,"45, Lorong Cahaya Intan 4, Taman Cahaya Intan, 34950 Bandar Baharu, Kedah, Malaysia",5.1283626,100.513606,Mini market cahaya intan,supermarket
+1157,"Kuala Ketil, 09100 Kuala Ketil, Kedah, Malaysia",5.60591,100.6467531,Pasaraya Mutiara (KIDA),supermarket
+1160,"No 6, Lorong Serai Wangi 1/11, 09010 Padang Serai, Kedah, Malaysia",5.520585400000001,100.5388199,KEDAI CIKGU,supermarket
+1163,"Lot 2, Kampung Sungai Seluang, 09600 bawah, Kedah, Malaysia",5.441616,100.542892,wan pomen car specialist,supermarket
+1165,"Taman Saderi, 09600 Lunas, Kedah, Malaysia",5.4261011,100.5524734,A&Z Freshmart,supermarket
+1166,"4, Jalan Kelang Lama, Pusat Perniagaan Putra, 09000 Kulim, Kedah, Malaysia",5.3887165,100.5650001,Pasaraya Ekonomi Ceria 8,supermarket
+1167,"Kulim Landmark Central Shopping Centre, Lot No. 2 - F10, Level 2, No. 1, Jalan KLC Satu, 09000, Kulim, Kedah, 09000, Malaysia",5.3855075,100.5467644,The Store,supermarket
+1169,"342C, Tingkat Bawah, Indah 1 & 2, Jalan Seraya, 09000 Kulim, Kedah, Malaysia",5.3838082,100.5447289,TF mart kulim,supermarket
+1170,"K812, Kampung Keladi, 09000 Kulim, Kedah, Malaysia",5.3861474,100.5455367,RM2 Kedai Serbaneka @ Zon Jimat,supermarket
+1171,"30, Taman Keranji 2, Kulim, 09000, Kulim, Kedah, 09000, Malaysia",5.367706999999999,100.540862,Mini Market Feng Sheng,supermarket
+1172,"Jalan Junjung, Taman Tanjung Indah, 09000 Kulim, Kedah, Malaysia",5.338432999999999,100.537434,Ros Dbayu Enterprise,supermarket
+1173,"10, Jalan Tanjung Indah 4, Taman Tanjung Indah, 09000 Kulim, Kedah, Malaysia",5.3383866,100.5374307,Pasar Mini Mudah Jaya,supermarket
+1176,"34950 Serdang, Kedah, Malaysia",5.2279316,100.5413446,Kedai Runcit Faizal Azmi,supermarket
+1180,"Kampung Alor Senggut, 34300 Bagan Serai, Perak, Malaysia",5.0058954,100.5445494,Kedai Rakyat 1 Malaysia,supermarket
+1182,"12a, Jalan Sri Permai, Taman Permai 1, 34100 Selama, Negeri Perak, Malaysia",5.2150135,100.6950476,Pasaraya A-Wang,supermarket
