@@ -2,6 +2,7 @@ import pandas as pd
 import numpy as np
 import shapefile as shp
 from area import area
+from pathlib import Path
 
 
 def read_shapefile(sf):
@@ -44,30 +45,6 @@ def get_cartesian(geocode):
     return (x, y)
 
 
-#def calc_floor_area(coords):
-#    """Estimate area of a polygon according to the Cartesian coordinates of
-#    its boundary points.
-#
-#    Ref: http://mathworld.wolfram.com/PolygonArea.html
-#    """
-#    # https://stackoverflow.com/questions/4681737/how-to-calculate-the-area-of-a-polygon-on-the-earths-surface-using-python
-#
-#    num_points = len(coords) - 1
-#    coords = list(map(get_cartesian, coords))
-#    A = 0
-#    for i in range(num_points):
-#        if i < num_points - 1:
-#            point1 = coords[i]
-#            point2 = coords[i+1]
-#        else:
-#            point1 = coords[num_points - 1]
-#            point2 = coords[0]
-#
-#        # Take note the points of polygon are arranged by clockwise order
-#        A += point1[0] * point2[1] - point2[0] * point1[1]
-#
-#    return -(A / 2)
-
 def calc_floor_area(coords):
     obj = {}
     obj['type'] = 'Polygon'
@@ -88,8 +65,9 @@ def is_penang(geocode):
 
 def main():
     #shp_path = '/home/swang/Desktop/shenghao-repos/asiatique/MYS_adm/MYS_adm0.shp'
-    shp_path = '/home/swang/Desktop/shenghao-repos/asiatique/malaysia-singapore-brunei-latest-free.shp/gis_osm_buildings_a_free_1.shp'
-    #shp_path = '/Users/shenghao/Desktop/shenghao-repos/asiatique/malaysia-singapore-brunei-latest-free.shp/gis_osm_buildings_a_free_1.shp'
+    print(Path.cwd().parent)
+    # shp_path = '/Users/shenghao/Desktop/shenghao-repos/asiatique/malaysia-singapore-brunei-latest-free.shp/gis_osm_buildings_a_free_1.shp'
+    shp_path = 'raw/gis_osm_buildings_a_free_1.shp'
     sf = shp.Reader(shp_path)
     print("type of sf: ", type(sf))
     #print("shape of sf: ", sf.shapes())
@@ -114,7 +92,7 @@ def main():
                                 "is_penang", "center", "coords"], axis=1)
     penang_df = penang_df.set_index('id')
     print(penang_df.head())
-    penang_df.to_csv("data/penang_residential_buildings.csv", index=True)
+    # penang_df.to_csv("data/penang_residential_buildings.csv", index=True)
 
 
 if __name__ == "__main__":
