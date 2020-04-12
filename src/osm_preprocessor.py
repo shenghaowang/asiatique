@@ -2,7 +2,6 @@ import pandas as pd
 import numpy as np
 import shapefile as shp
 from area import area
-from pathlib import Path
 
 
 def read_shapefile(sf):
@@ -64,20 +63,21 @@ def is_penang(geocode):
 
 
 def main():
-    #shp_path = '/home/swang/Desktop/shenghao-repos/asiatique/MYS_adm/MYS_adm0.shp'
-    print(Path.cwd().parent)
-    # shp_path = '/Users/shenghao/Desktop/shenghao-repos/asiatique/malaysia-singapore-brunei-latest-free.shp/gis_osm_buildings_a_free_1.shp'
+    # print(Path.cwd().parent)
     shp_path = 'raw/gis_osm_buildings_a_free_1.shp'
     sf = shp.Reader(shp_path)
     print("type of sf: ", type(sf))
-    #print("shape of sf: ", sf.shapes())
+    # print("shape of sf: ", sf.shapes())
     shp_df = read_shapefile(sf)
+    print("Building types: ", shp_df['type'].unique())
+    print(shp_df.head())
     residential_types = ["condominium", "apartment", "apartments",
                          "dormitory", "EiS_Residences", "residential",
                          "bungalow", "detached", "mix_used"]
     residential_df = shp_df.loc[shp_df["type"].isin(residential_types)]
     residential_df = residential_df.set_index("osm_id")
     residential_df["center"] = residential_df["coords"].apply(lambda coords: get_center(coords))
+
     # Boundary of Penang State, obtained from OpenStreetMap
     # lat: 5.1175 - 5.5929; lng: 100.1691 - 100.5569
     residential_df["is_penang"] = residential_df["center"].apply(lambda geocode: is_penang(geocode))
@@ -92,7 +92,7 @@ def main():
                                 "is_penang", "center", "coords"], axis=1)
     penang_df = penang_df.set_index('id')
     print(penang_df.head())
-    # penang_df.to_csv("data/penang_residential_buildings.csv", index=True)
+    penang_df.to_csv("data/penang_residential_buildings.csv", index=True)
 
 
 if __name__ == "__main__":
