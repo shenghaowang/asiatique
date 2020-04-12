@@ -125,7 +125,6 @@ def main(config_file):
     logging.info("Export grid population to text file")
     grid_population_file = conf.get("output").get("grid_population_file")
     population_shp_df.to_csv(grid_population_file, index=False)
-    grid_shape_file = conf.get("input").get("grid_shape_file")
     gdf = gpd.read_file(grid_shape)
     gdf = gdf.to_crs({'init': 'epsg:3857'})
     gdf["population"] = population_shp_df["population"]
