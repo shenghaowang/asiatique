@@ -29,7 +29,7 @@ class DistAPIWorker:
         response = self.gmaps.distance_matrix(grid_geocode, supermarket_geocode,
                                               mode='driving')
         response["grid_id"] = self.city_grid.get("id")
-        response["supermarket_i[d"] = self.supermarket.get("index")
+        response["supermarket_id"] = self.supermarket.get("index")
         return response
 
 

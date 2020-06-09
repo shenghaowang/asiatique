@@ -18,7 +18,8 @@ Project Organization
     │
     ├── notebooks
     │   ├── 1.0-simulate-population-distribution.ipynb  <- Simulate gridwise population distribution across Penang.
-    │   └── 2.0-develop-supermarkets-layer.ipynb        <- Build shape file of existing supermarket players.
+    │   ├── 2.0-develop-supermarkets-layer.ipynb        <- Build shape file of existing supermarket players.
+    │   └── 3.0-calculate-customer-density.ipynb        <- Calculate customer density for grids and build shape file.
     │ 
     ├── config
     │   ├── grid_population_layer_builder.yml   <- Config parameters for building population distribution shape file.
