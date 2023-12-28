@@ -1,11 +1,12 @@
-import csv
 import argparse
+import csv
+import json
 import logging
 import logging.config
-import yaml
-import json
 import time
+
 import googlemaps
+import yaml
 from addict import Dict as Addict
 
 
@@ -22,24 +23,24 @@ class DistAPIWorker:
         self.supermarket = supermarket
 
     def run(self):
-        grid_geocode = (self.city_grid["center_lat"],
-                        self.city_grid["center_lng"])
-        supermarket_geocode = (self.supermarket["lat"],
-                               self.supermarket["lng"])
-        response = self.gmaps.distance_matrix(grid_geocode, supermarket_geocode,
-                                              mode='driving')
+        grid_geocode = (self.city_grid["center_lat"], self.city_grid["center_lng"])
+        supermarket_geocode = (self.supermarket["lat"], self.supermarket["lng"])
+        response = self.gmaps.distance_matrix(
+            grid_geocode, supermarket_geocode, mode="driving"
+        )
         response["grid_id"] = self.city_grid.get("id")
         response["supermarket_id"] = self.supermarket.get("index")
         return response
 
 
 def main(config_file):
-    conf = Addict(yaml.safe_load(open(config_file, 'r')))
+    conf = Addict(yaml.safe_load(open(config_file, "r")))
     if conf.get("logging") is not None:
         logging.config.dictConfig(conf["logging"])
     else:
-        logging.basicConfig(level=logging.INFO,
-                            format="%(asctime)s - %(levelname)s - %(message)s")
+        logging.basicConfig(
+            level=logging.INFO, format="%(asctime)s - %(levelname)s - %(message)s"
+        )
     supermarkets_file = conf.get("input").get("supermarkets_file")
     logging.info("Loading geocode of supermarkets from %s", supermarkets_file)
     supermarkets_file_reader = csv.reader(open(supermarkets_file))
@@ -49,7 +50,7 @@ def main(config_file):
         supermarket = dict(zip(supermarkets_file_header, row))
         supermarkets.append(supermarket)
     logging.info("%s supermarkets located in the city.", len(supermarkets))
-    
+
     grid_geocode_file = conf.get("input").get("grid_geocode_file")
     logging.info("Loading geocode of city grids from %s", grid_geocode_file)
     grids_file_reader = csv.reader(open(grid_geocode_file))
@@ -74,21 +75,25 @@ def main(config_file):
             results.append(response)
             counter += 1
             if counter % 1000 == 0:
-                logging.info("%s grid-supermarket pair processed ... Elapsed time %s seconds",
-                             counter, round(time.time() - start_time, 4))
+                logging.info(
+                    "%s grid-supermarket pair processed ... Elapsed time %s seconds",
+                    counter,
+                    round(time.time() - start_time, 4),
+                )
 
     # Export query responses to file
     if len(results) > 0:
         results_fp = conf.get("output").get("grid_to_supermarket_dist_raw")
-        with open(results_fp, 'w') as output_file:
+        with open(results_fp, "w") as output_file:
             json.dump(results, output_file, indent=4)
         logging.info("%s query responses dumped to %s", len(results), results_fp)
 
 
 if __name__ == "__main__":
     parser = argparse.ArgumentParser()
-    parser.add_argument("-c", "--config", required=True,
-                        help="directory of the config file")
+    parser.add_argument(
+        "-c", "--config", required=True, help="directory of the config file"
+    )
     args = parser.parse_args()
     try:
         main(args.config)
